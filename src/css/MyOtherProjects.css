@@ -1,0 +1,101 @@
+.title_and_line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.compTitle3 {
+}
+.line3 {
+  width: 70%;
+  margin-left: 20px;
+}
+.line3 hr {
+  height: 2px;
+  border-radius: 5px;
+}
+
+.mappedJsonProjects {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form {
+
+}
+
+/* .eachProjectDiv { */
+/* 1. Projects always in view  - 1 remains untouched.*/
+.displayNow {
+  background-color: #354F52;
+  padding: 30px;
+  margin: 10px;
+  margin-bottom: 40px;
+  width: 400px;
+}
+/* 2. show Hidden Projects  -  3 and 2 toggle*/
+.displayAfter {
+  display: none;
+  background-color: #354F52;
+  padding: 30px;
+  margin: 10px;
+  margin-bottom: 40px;
+  width: 400px;
+}
+/* 3. reshow Hidden Projects  -  3 and 2 toggle*/
+.reDisplayNow {
+  background-color: #354F52;
+  padding: 30px;
+  margin: 10px;
+  margin-bottom: 40px;
+  width: 400px;
+}
+
+div.inputButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+input.inputButton {
+  background-color: #354F52;
+  color: #CAD2C5;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  width: fit-content;
+}
+
+.linkIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.linkIcons img {
+  height: 30px;
+  padding-left: 10px;
+}
+
+.otherPro_title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #84A98C;
+  padding-bottom: 15px;
+}
+
+.otherPro_description {
+  padding-bottom: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+.languagesArray {
+  display: flex;
+}
+.eachLanguage p {
+  display: flex;
+  padding-right: 20px;
+  color: #84A98C;
+  font-weight: 500;
+}

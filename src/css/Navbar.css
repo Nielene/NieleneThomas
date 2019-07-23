@@ -1,0 +1,73 @@
+.nav {
+  /* background-color: #354F52; */
+  background-color: #2F3E46;
+  color: #CAD2C5;
+
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.nav_nameDiv {
+  width: 100px;
+  margin-left: 40px;
+}
+.nav_nameDiv a {
+  color: #CAD2C5;
+  text-decoration: none;
+  padding-right: 15px;
+}
+.nav_nameDiv a:hover {
+  color: white;
+  /* text-decoration: underline #CAD2C5 solid; */
+}
+
+.nav_liListDiv {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+  align-items: center;
+}
+
+.nav_liListDiv li {
+  list-style-type: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav_liListDiv a {
+  text-decoration: none;
+  color: #84A98C;
+  font-weight: bold;
+  font-size: 17px;
+  height: 50px;
+}
+
+.arrowUpIcon img {
+  border-radius: 50%;
+  background-color: #84A98C;
+  padding: 5px;
+  height: 35px;
+}
+.arrowUpIcon img:hover {
+  background-color: #CAD2C5;
+}
+
+.nav_liListDiv a:visited {
+  color: #84A98C;
+  background-color: #2F3E46;
+  padding: 10px;
+}
+ .nav_liListDiv a:hover {
+  color: #CAD2C5;
+  text-decoration: underline #CAD2C5 solid;
+}

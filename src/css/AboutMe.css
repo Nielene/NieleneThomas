@@ -1,0 +1,74 @@
+.compTitle h1 {
+  margin: 0px;
+  color: #354F52;
+  font-weight: bolder;
+}
+
+.line1 {
+  width: 80%;
+  margin-left: 20px;
+}
+.line1 hr {
+  height: 2px;
+  border-radius: 5px;
+}
+
+.belowHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+
+  background-color: #2F3E46;
+  border: 2px solid #84A98C;
+}
+
+.leftSide {
+  width: 50%;
+
+  padding: 20px;
+
+  /* background-color: #2F3E46; */
+  color: #CAD2C5;
+
+}
+
+.leftSide li {
+  color: #84A98C;
+  font-weight: bold;
+}
+
+
+.paragraphs p {
+  /* color: #2F3E46; */
+  font-weight: bold;
+  /* height: 70px; */
+  padding: 0px 10px 20px 10px;
+}
+.paragraphs a {
+  color: white;
+  margin: 0 5px 0 5px;
+}
+
+
+.ulListsDiv {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.ulListsDiv li {
+  /* color: #2F3E46; */
+  padding-bottom: 10px;
+}
+
+.rightSideImgDiv {
+  display: flex;
+  align-items: center;
+  /* padding: 20px; */
+}
+.rightSideImgDiv img {
+  height: 300px;
+  border: 2px solid #84A98C;
+}

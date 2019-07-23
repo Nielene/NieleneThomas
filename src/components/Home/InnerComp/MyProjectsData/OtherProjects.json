@@ -1,0 +1,7 @@
+[
+  {"id": 1, "title": "Earworm Report", "className": "displayNow", "languages": ["Redux", "React", "JavaScript", "CSS"], "website": "", "github": "https://github.com/Nielene/Earworm-Report", "description": "A full-stack application where users can post, favorite, and comment on songs."},
+  {"id": 2, "title": "Music4urMood", "className": "displayNow", "languages": ["React", "JavaScript", "CSS"], "website": "", "github": "https://github.com/acabrera100/music4UrMood", "description": "A group project that plays you music to suit your mood."},
+  {"id": 3, "title": "TicTacToe", "className": "displayAfter", "languages": ["JavaScript", "HTML", "Node.js"], "website": "", "github": "https://github.com/Nielene/AC_4_Web?organization=Nielene&organization=Nielene", "description": "Play Tic Tac Toe on the a shared computer Terminal against a friend."},
+  {"id": 4, "title": "Rock, Paper, Scissors", "className": "displayAfter", "languages": ["JavaScript", "HTML", "Node.js"], "website": "", "github": "https://github.com/Nielene/timers_assignment", "description": "Play Rock, Paper, Scissors on the Terminal against the Computer!"},
+  {"id": 5, "title": "Cost Splitter", "className": "displayAfter", "languages": ["HTML", "CSS"], "website": "", "github": "https://github.com/Nielene/costSplitter", "description": "This is one of my early projects. It gives you a quick way to split a bill fairly."}
+]

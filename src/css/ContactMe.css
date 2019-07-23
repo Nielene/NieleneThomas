@@ -1,0 +1,57 @@
+.quote {
+  display: flex;
+  justify-content: center;
+}
+.quote p {
+  background-color: #52796F;
+  padding: 20px;
+  width: 43%;
+  font-family: cursive;
+  font-size: 22px;
+  font-stretch: extra-expanded;
+  margin-bottom: 90px;
+}
+
+span.contactMe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* width: fit-content; */
+  background-color: #354F52;
+  border: 2px solid #52796F;
+  /* padding: 20px; */
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+
+.contactMe a {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.contactMe p{
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+.contactMe img {
+  padding-right: 10px;
+}
+
+.contactMe img {
+  height: 50px;
+}
+
+
+.lineC {
+  width: 77%;
+  margin-left: 20px;
+}
+.lineC hr {
+  height: 2px;
+  border-radius: 5px;
+}

@@ -1,0 +1,44 @@
+.Home_and_ArrowUp_Div {
+  display: flex;
+  flex-direction: row;
+
+  margin: 15px 150px 60px 150px;
+}
+
+.ArrowUp_Div_Div {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+}
+
+.ArrowUp_Div {
+  display: flex;
+  position: fixed;
+  bottom: 70px;
+  right: 55px;
+}
+
+
+.homeDiv {
+  background-color: #CAD2C5;
+  color: white;
+
+  padding: 0px 50px 40px 60px;
+  border-radius: 5px;
+
+}
+
+.homeComponent {
+  padding-top: 140px;
+  /* margin-top: 140px; */
+}
+
+#smallIntro {
+  height: 70vh;
+}
+#aboutMe {
+  height: 90vh;
+}
+#contactMe {
+  padding-bottom: 20px;
+}
