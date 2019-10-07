@@ -39,6 +39,7 @@
   width: 100%;
   /* margin: 10px; */
   /* min-width: ; */
+  /* padding: 20px; */
 }
 
 .leftSide {
@@ -84,7 +85,7 @@
 .rightSideImgDiv {
   display: flex;
   align-items: center;
-  /* padding: 20px; */
+  padding-right: 20px;
   /* background-color: black; */
 }
 .rightSideImgDiv img {
