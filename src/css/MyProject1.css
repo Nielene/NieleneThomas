@@ -4,13 +4,19 @@
   width: 100%;
 
 }
+.projectLeftDiv {
+  width: 100%;
+}
 .projectLeftDiv img {
-  width: 500px;
+  /* width: 500px; */
+  width: 100%;
+  /* min-width: 50%; */
   z-index: -1;
   left: 0px;
 }
 
 .projectRightDiv {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;

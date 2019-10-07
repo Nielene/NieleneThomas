@@ -17,7 +17,7 @@ const MyProject1 = () => {
 
         <div className='projectDescription'>
           <p>Don't want to spend your entire day waiting in a salon? Let Dashing come to you! </p>
-          <p>Brought to you by JB INC., Dashing is the online destination for bringing together beauty & wellness professionals and servicing their clients in the comfort of their own homes. Our talented licensed freelance professionals can showcase their work and connect with new & exisiting clients, all while building their business. Our clients can search for providers in their area or by the service they need and book an appointment!</p>
+          <p>Brought to you by my project group, JB INC., Dashing is the online destination for bringing together beauty & wellness professionals to service their clients in the comfort of the client's own home. Our talented licensed freelance professionals can showcase their work and connect with new & exisiting clients, all while building their business. Our clients can search for providers in their area or by the service they need and book an appointment!</p>
           <p>Explore Dashing today!</p>
         </div>
 
