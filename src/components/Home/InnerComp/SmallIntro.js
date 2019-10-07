@@ -4,7 +4,7 @@ import '../../../css/SmallIntro.css'
 class SmallIntro extends Component {
   render() {
     return (
-        <div>
+        <div className='smallIntroDiv'>
 
           <div className='greetingHi'>
             <p>Hi! My name is </p>

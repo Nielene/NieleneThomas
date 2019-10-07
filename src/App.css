@@ -1,9 +1,22 @@
 .App {
   background-color: #2F3E46;
-  width: fit-content;
+
   display: flex;
   flex-direction: column;
+
+  min-width: 710px;
+  width: fit-content;
+
   align-items: center;
+  align-content: center;
+}
+
+.AppNavbar {
+  display: flex;
+  flex-direction: row;
+
+  left: 0px;
+  position: fixed;
 }
 
 

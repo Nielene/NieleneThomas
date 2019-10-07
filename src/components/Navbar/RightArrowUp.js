@@ -1,7 +1,7 @@
-import React , { Component } from 'react';
+import React from 'react';
 import { withRouter } from 'react-router-dom';
 import arrowUp from '../../assets/double_arrow_up.png'
-// import '../../css/Navbar.css'
+import '../../css/Navbar.css'
 
 
 
