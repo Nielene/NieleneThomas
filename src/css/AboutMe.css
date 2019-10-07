@@ -1,4 +1,12 @@
+.title_and_line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
 .compTitle h1 {
+  font-size: 40px;
   margin: 0px;
   color: #354F52;
   font-weight: bolder;

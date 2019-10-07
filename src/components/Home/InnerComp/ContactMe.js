@@ -12,19 +12,23 @@ class ContactMe extends Component {
     return (
       <div>
 
-        <div className='quote'>
-          <p>"Projects can always be improved as you improve. They are each a measure of your growth. Our lives are the biggest projects that are always in progress."</p>
-        </div>
-
         <div className='title_and_line'>
+
           <div className='compTitle'>
             <h1>CONTACT ME</h1>
           </div>
 
-          <div className='lineC'>
+          <div className='line1'>
             <hr />
           </div>
+
         </div>
+
+        <div className='quote'>
+        <p>"Projects can always be improved as you improve. They are each a measure of your growth. Our lives are the biggest projects that are always in progress."</p>
+        </div>
+
+
 
         <span className='contactMe'>
           <a href='https://www.linkedin.com/in/nielene/' target='_blank' rel='noopener noreferrer'> <img src={linkedin_3_512} alt=''/>/ {" "} Nielene</a>

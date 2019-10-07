@@ -75,7 +75,7 @@ class MyOtherProjects extends Component {
             <h1>My Other Projects</h1>
           </div>
 
-          <div className='line3'>
+          <div className='line1'>
             <hr />
           </div>
         </div>
