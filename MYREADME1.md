@@ -83,6 +83,13 @@ https://www.computerhope.com/issues/ch001662.htm
 To create extra spaces before, after, or in-between your text, use the &nbsp; (non-breaking space) extended HTML character.
 
 
+create array of imported pics in js file:
+https://github.com/isaink/dashing/blob/nielene_SingleService/frontend/src/components/HomePage/SingleService.js
+being used in MyProjects.js
+
+**NEED TO:**
+parse JSON file to get <p></p> tags explicitly from .json file into js presentation file - without having to use 'line1,...'
+-- GOT IT MOSTLY! Did in in MyOtherProjects.js
 
 
 
