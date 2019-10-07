@@ -1,15 +1,17 @@
 .Home_and_ArrowUp_Div {
   /* min-width: 80vw; */
-  width: 100%;
+  width: 80%;
 
   display: flex;
   flex-direction: row;
 
   align-items: center;
+  /* justify-content: center; */
 
 
   /* margin: 15px 150px 60px 150px; */
-  padding: 30px 150px 60px 150px;
+
+  margin: 30px 150px 60px 150px;
 }
 
 .ArrowUp_Div_Div {
@@ -48,6 +50,10 @@
 #aboutMe {
   /* height: 90vh; */
 }
+#myOtherProjects {
+  margin-top: -50px;
+}
 #contactMe {
   /* padding-bottom: 20px; */
+  margin-bottom: 0px;
 }
