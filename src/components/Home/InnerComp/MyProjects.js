@@ -19,13 +19,21 @@ class MyProjects extends Component {
           </div>
         </div>
 
-        <div className='MyProjectImportComponent'>
+        {
+          /* {
+          <div>
+          <div className='MyProjectImportComponent'>
           <MyProject1 />
-        </div>
+          </div>
 
-        <div className='MyProjectImportComponent'>
+          <div className='MyProjectImportComponent'>
           <MyProject2 />
-        </div>
+          </div>
+          </div>
+          } */
+
+        }
+
 
       </div>
     )
