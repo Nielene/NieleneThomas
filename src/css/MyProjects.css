@@ -1,3 +1,4 @@
+/* See AboutMe.js */
 .title_and_line {
 }
 .compTitle {
@@ -7,6 +8,78 @@
 .line1 hr {
 }
 
-.MyProjectImportComponent {
-  margin-bottom: 100px;
+.projectDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 50px;
+
+}
+.projectLeftDiv {
+  width: 100%;
+}
+.projectLeftDiv img {
+  /* width: 500px; */
+  width: 100%;
+  /* min-width: 50%; */
+  z-index: -1;
+  left: 0px;
+}
+
+.projectRightDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.projectTitle a {
+  /* align-items: flex-end; */
+  /* color: #52796F; */
+  color: #2F3E46;
+  font-size: 32px;
+
+}
+
+.projectDescription {
+  display: flex;
+  flex-direction: column;
+  background-color: #67630C;
+  padding-left: 20px;
+  padding: 15px;
+  margin-bottom: 5px;
+
+  border: 2px solid #84A98C;
+  background-color: #354F52;
+  color: #CAD2C5;
+  font-weight: 500;
+  font-stretch: extra-expanded;
+  /* justify-content: center; */
+}
+.projectDescription p {
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  margin: 5px;
+}
+
+.projectLanguages ul {
+  display: flex;
+  flex-direction: row;
+  color: #354F52;
+  font-weight: 500;
+}
+
+.projectLanguages li {
+  list-style-type: none;
+  padding-left: 30px;
+  /* color: rgba(103,99,12, 1) */
+}
+
+.projectIcons img {
+  height: 40px;
+  padding-left: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: #354F52;
+
 }

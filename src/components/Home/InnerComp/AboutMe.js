@@ -5,7 +5,7 @@ import myGithubPicture from '../../../assets/myGithubPicture.jpeg'
 class AboutMe extends Component {
   render() {
     return (
-      <div>
+      <div className = 'aboutMeDiv'>
 
         <div className='title_and_line'>
           <div className='compTitle'>

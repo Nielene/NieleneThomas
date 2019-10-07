@@ -1,6 +1,6 @@
 .Home_and_ArrowUp_Div {
-  min-width: 80vw;
-  width: 80vw;
+  /* min-width: 80vw; */
+  width: 100%;
 
   display: flex;
   flex-direction: row;
@@ -36,16 +36,18 @@
 }
 
 .homeComponent {
-  padding-top: 140px;
-  /* margin-top: 140px; */
+  margin: 140px 0 100px 0;
+  padding: 0 0 50px 0;
 }
 
 #smallIntro {
-  height: 70vh;
+  padding: 50px 0 70px 0;
+
+  /* height: 70vh; */
 }
 #aboutMe {
-  height: 90vh;
+  /* height: 90vh; */
 }
 #contactMe {
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }

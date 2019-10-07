@@ -1,5 +1,4 @@
 .nav {
-  /* background-color: #354F52; */
   background-color: #2F3E46;
   color: #CAD2C5;
 
@@ -13,9 +12,14 @@
   justify-content: space-between;
   padding: 0px;
   margin: 0px;
-  align-items: center;
+  /* align-items: center; */
   padding-right: 10px;
   border-radius: 5px;
+}
+
+.nav a {
+  display: flex;
+  /* justify-content: space-around; */
 }
 
 .nav_nameDiv {
