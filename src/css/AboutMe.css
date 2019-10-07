@@ -14,7 +14,7 @@
 
 .line1 {
   width: 80%;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 .line1 hr {
   height: 2px;
@@ -29,6 +29,10 @@
 
   background-color: #2F3E46;
   border: 2px solid #84A98C;
+
+  width: 100%;
+  margin: 10px;
+  /* min-width: ; */
 }
 
 .leftSide {

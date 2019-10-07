@@ -1,8 +1,15 @@
 .Home_and_ArrowUp_Div {
+  min-width: 80vw;
+  width: 80vw;
+
   display: flex;
   flex-direction: row;
 
-  margin: 15px 150px 60px 150px;
+  align-items: center;
+
+
+  /* margin: 15px 150px 60px 150px; */
+  padding: 30px 150px 60px 150px;
 }
 
 .ArrowUp_Div_Div {
