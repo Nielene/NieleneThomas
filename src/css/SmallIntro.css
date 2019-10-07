@@ -1,10 +1,8 @@
 .greetingHi p {
-  /* margin: 140px 0 50px 0; */
   font-weight: 700;
   font-size: 20px;
   font-stretch: expanded;
   color: #52796F;
-
 }
 
 .name h1 {
