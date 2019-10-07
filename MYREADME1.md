@@ -78,6 +78,9 @@ https://stackoverflow.com/questions/34779642/dynamic-href-tag-react-in-jsx
 <a href={"mailto:" + this.state.email}><p>NieleneThomas@pursuit.org</p></a>
 ```
 
+make extra space inline:
+https://www.computerhope.com/issues/ch001662.htm
+To create extra spaces before, after, or in-between your text, use the &nbsp; (non-breaking space) extended HTML character.
 
 
 

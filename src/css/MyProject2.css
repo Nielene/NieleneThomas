@@ -4,13 +4,23 @@
   width: 100%;
 
 }
-.projectLeftDiv2 img {
-  width: 500px;
-  z-index: -1;
+.projectRightDiv2 {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.projectRightDiv2 img {
+  /* width: 500px; */
+  width: 100%;
+  /* z-index: -1; */
   right: 0px;
 }
 
-.projectRightDiv2 {
+.projectLeftDiv2 {
+  width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -20,6 +30,9 @@
   /* color: #52796F; */
   color: #2F3E46;
   font-size: 32px;
+
+  display: flex;
+  text-align: right;
 
 }
 
