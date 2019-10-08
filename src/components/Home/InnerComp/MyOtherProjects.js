@@ -58,7 +58,7 @@ class MyOtherProjects extends Component {
           <div className='languagesArray'>{project.languages.map((language, index) => {
             return (
               <div key={index} className='eachLanguage'>
-                <p> {language} </p>
+                <p><b> {language} </b></p>
               </div>
             )
           })}</div>

@@ -56,6 +56,17 @@
   font-size: 17px;
 }
 
+.nav_liListDiv a:visited {
+  color: #84A98C;
+  background-color: #2F3E46;
+  padding: 10px;
+}
+ .nav_liListDiv a:hover {
+  color: white;
+  text-decoration: underline white solid;
+  text-decoration-: 2px;
+}
+
 .arrowUpIcon img {
   border-radius: 50%;
   background-color: #84A98C;
@@ -67,14 +78,4 @@
 }
 .arrowUpIcon img:hover {
   background-color: #CAD2C5;
-}
-
-.nav_liListDiv a:visited {
-  color: #84A98C;
-  background-color: #2F3E46;
-  padding: 10px;
-}
- .nav_liListDiv a:hover {
-  color: #CAD2C5;
-  text-decoration: underline #CAD2C5 solid;
 }
