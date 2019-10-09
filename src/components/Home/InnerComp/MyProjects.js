@@ -1,7 +1,7 @@
 import React , { Component } from 'react';
 import dashingScreenshot from '../../../assets/Dashing_screenshot.png';
 import reredditScreenshot from '../../../assets/re_reddit_screenshot_2.png';
-import dashingGif from '../../../assets/ezgif.com-video-to-gif.gif'
+import dashingGif from '../../../assets/ezgif.com-crop.gif'
 import reredditGif from '../../../assets/re_reddit_screenshot_2.png'
 import github_icon from '../../../assets/github_icon.png';
 import external_link_icon from '../../../assets/www_web_icon.png';
