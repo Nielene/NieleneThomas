@@ -45,34 +45,37 @@ class MyProjects extends Component {
 
   handleOnMouseOver = (e) => {
     this.setState ({
-      onMouseOver: e.target.onMouseOver,
-      [e.target.name]: e.target.value
+      displayGif: true
+      // onMouseOver: e.target.onMouseOver,
+      // [e.target.name]: e.target.value
     })
+    console.log('hello');
 
-    return gifs.map( (gif, index) => {
-      return (
-        <div key={index}>
-          <img src={gif[index]} alt=''>
-          </img>
-        </div>
-      )
-    })
+    // return gifs.map( (gif, index) => {
+    //   return (
+    //     <div key={index}>
+    //       <img src={gif[index]} alt=''>
+    //       </img>
+    //     </div>
+    //   )
+    // })
 
   }
 
   handleOnMouseOut = (e) => {
     this.setState ({
-      onMouseOut: e.target.onMouseOut
+      displayGif: false
+      // onMouseOut: e.target.onMouseOut
     })
 
-    return screenshots.map((screenshot, index) => {
-      return (
-        <div key={index}>
-          <img src={screenshot[index]} alt=''>
-          </img>
-        </div>
-      )
-    })
+    // return screenshots.map((screenshot, index) => {
+    //   return (
+    //     <div key={index}>
+    //       <img src={screenshot[index]} alt=''>
+    //       </img>
+    //     </div>
+    //   )
+    // })
 
   }
 
@@ -82,14 +85,17 @@ class MyProjects extends Component {
     })
     if (this.state.displayGif) {
       return gifs.map((gif, index) => {
+        console.log('GIFS.MAP', gifs, gif, index);
         return (
           <div className='projectLeftDiv'>
             <img src={gifs[index]} alt=''></img>
           </div>
         )
       })
-    } else {
+    }
+     else {
       return screenshots.map((screenshot, index) => {
+        console.log('screenshots.map', screenshots, screenshot, index);
         return (
           <div className='projectLeftDiv'>
             <img src={screenshots[index]} alt=''></img>
@@ -103,15 +109,7 @@ class MyProjects extends Component {
     this.setState ({
       displayGif: false
     })
-    if (this.state.displayGif) {
-      return gifs.map((gif, index) => {
-        return (
-          <div className='projectLeftDiv'>
-            <img src={gifs[index]} alt=''></img>
-          </div>
-        )
-      })
-    } else {
+    if (!this.state.displayGif) {
       return screenshots.map((screenshot, index) => {
         return (
           <div className='projectLeftDiv'>
@@ -120,7 +118,28 @@ class MyProjects extends Component {
         )
       })
     }
+    else {
+      return gifs.map((gif, index) => {
+        // console.log("gifs", gifs, gifs[index]);
+        return (
+          <div className='projectLeftDiv'>
+            <img src={gifs[index]} alt=''></img>
+          </div>
+        )
+      })
+    }
   }
+
+  // displayGifHere = () => {
+  //   return mainProjects.map((project, index) => {
+  //
+  //     return (
+  //       <div className='projectLeftDiv'>
+  //         <h1>Put Gif Here</h1>
+  //       </div>
+  //     )
+  //   })
+  // }
 
   projects = () => {
     return mainProjects.map( project => {
@@ -130,13 +149,15 @@ class MyProjects extends Component {
           <div className='projectDiv'
             >
 
-            <div className='projectLeftDiv'>
-              <img src={screenshots[project.id]} alt=''
-                onMouseOver={this.screenshot_GifToggle}
-                onMouseOut={this.gif_ScreenshotToggle}>
-              </img>
+            <div className='projectLeftDiv'
+              onMouseOver={this.handleOnMouseOver}
+              onMouseOut={this.handleOnMouseOut}>
 
-              {this.screenshot_GifToggle}
+              {!this.state.displayGif
+                ? <img src={gifs[project.id]} alt=''></img>
+                : <img src={screenshots[project.id]} alt=''></img> }
+
+
             </div>
 
 
@@ -144,6 +165,28 @@ class MyProjects extends Component {
 
             {
               /* {
+
+
+
+              <img src={screenshots[project.id]} alt=''
+              onMouseOver={this.displayGifHere}>
+              </img>
+
+
+              <img src={screenshots[project.id]} alt=''
+              onMouseOver={this.screenshot_GifToggle}
+              onMouseOut={this.gif_ScreenshotToggle}>
+              </img>
+
+              <div className='projectLeftDiv'>
+              <img src={screenshots[project.id]} alt=''
+              onMouseOver={this.screenshot_GifToggle}
+              onMouseOut={this.gif_ScreenshotToggle}>
+              </img>
+
+              {this.screenshot_GifToggle}
+              </div>
+
 
               <div className='projectLeftDiv'>
                 {this.screenshot_GifToggle}
