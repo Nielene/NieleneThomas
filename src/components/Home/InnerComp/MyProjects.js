@@ -23,131 +23,30 @@ class MyProjects extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      onMouseOver: false,
-      onMouseOut: true,
-      imageDiv: '',
       displayGif: false,
     }
   }
 
-  onMouseOver() {
-    this.setState({
-      onMouseOver: true,
-      onMouseOut: false
-    })
-  }
-  onMouseOut() {
-    this.setState({
-      onMouseOver: false,
-      onMouseOut: true
-    })
-  }
 
   handleOnMouseOver = (e) => {
     this.setState ({
       displayGif: true
-      // onMouseOver: e.target.onMouseOver,
-      // [e.target.name]: e.target.value
     })
     console.log('hello');
-
-    // return gifs.map( (gif, index) => {
-    //   return (
-    //     <div key={index}>
-    //       <img src={gif[index]} alt=''>
-    //       </img>
-    //     </div>
-    //   )
-    // })
-
   }
 
   handleOnMouseOut = (e) => {
     this.setState ({
       displayGif: false
-      // onMouseOut: e.target.onMouseOut
     })
-
-    // return screenshots.map((screenshot, index) => {
-    //   return (
-    //     <div key={index}>
-    //       <img src={screenshot[index]} alt=''>
-    //       </img>
-    //     </div>
-    //   )
-    // })
-
   }
-
-  screenshot_GifToggle = () => {
-    this.setState ({
-      displayGif: true
-    })
-    if (this.state.displayGif) {
-      return gifs.map((gif, index) => {
-        console.log('GIFS.MAP', gifs, gif, index);
-        return (
-          <div className='projectLeftDiv'>
-            <img src={gifs[index]} alt=''></img>
-          </div>
-        )
-      })
-    }
-     else {
-      return screenshots.map((screenshot, index) => {
-        console.log('screenshots.map', screenshots, screenshot, index);
-        return (
-          <div className='projectLeftDiv'>
-            <img src={screenshots[index]} alt=''></img>
-          </div>
-        )
-      })
-    }
-  }
-
-  gif_ScreenshotToggle = () => {
-    this.setState ({
-      displayGif: false
-    })
-    if (!this.state.displayGif) {
-      return screenshots.map((screenshot, index) => {
-        return (
-          <div className='projectLeftDiv'>
-            <img src={screenshots[index]} alt=''></img>
-          </div>
-        )
-      })
-    }
-    else {
-      return gifs.map((gif, index) => {
-        // console.log("gifs", gifs, gifs[index]);
-        return (
-          <div className='projectLeftDiv'>
-            <img src={gifs[index]} alt=''></img>
-          </div>
-        )
-      })
-    }
-  }
-
-  // displayGifHere = () => {
-  //   return mainProjects.map((project, index) => {
-  //
-  //     return (
-  //       <div className='projectLeftDiv'>
-  //         <h1>Put Gif Here</h1>
-  //       </div>
-  //     )
-  //   })
-  // }
 
   projects = () => {
     return mainProjects.map( project => {
       return (
         <div key={project.id} className={project.className}>   {/* {do i need a className in json file?} */ }
 
-          <div className='projectDiv'
-            >
+          <div className='projectDiv'>
 
             <div className='projectLeftDiv'
               onMouseOver={this.handleOnMouseOver}
@@ -157,86 +56,14 @@ class MyProjects extends Component {
                 ? <img src={gifs[project.id]} alt=''></img>
                 : <img src={screenshots[project.id]} alt=''></img> }
 
-
             </div>
-
-
-
-
-            {
-              /* {
-
-
-
-              <img src={screenshots[project.id]} alt=''
-              onMouseOver={this.displayGifHere}>
-              </img>
-
-
-              <img src={screenshots[project.id]} alt=''
-              onMouseOver={this.screenshot_GifToggle}
-              onMouseOut={this.gif_ScreenshotToggle}>
-              </img>
-
-              <div className='projectLeftDiv'>
-              <img src={screenshots[project.id]} alt=''
-              onMouseOver={this.screenshot_GifToggle}
-              onMouseOut={this.gif_ScreenshotToggle}>
-              </img>
-
-              {this.screenshot_GifToggle}
-              </div>
-
-
-              <div className='projectLeftDiv'>
-                {this.screenshot_GifToggle}
-              </div>
-
-              <img src={screenshots[project.id]} alt=''></img>
-
-              <div className='projectLeftDiv'
-              onMouseOver={this.handleOnMouseOver}
-              name='imageDiv'
-              value={this.state.imageDiv}>
-              <img src={screenshots[project.id]} alt=''></img>
-              </div>
-
-              <div className='projectLeftDiv'>
-              <a href={project.website} onMouseOver={this.handleOnMouseOver()}>
-              <img src={screenshots[project.id]} alt=''>
-              </img>
-              </a>
-              </div>
-
-              <div className='projectLeftDiv'
-              onMouseOver={this.handleOnMouseOver()}
-              onMouseOut={this.handleOnMouseOut()}>
-              onMouseOver()
-              : <img src={gifs[project.id]} alt='' ></img>
-              ? <img src={screenshots[project.id]} alt=''></img>
-              } */
-
-                /* {
-                <a href ={project.website} id='name'>
-                <img
-                onMouseOver ="this.src={gifs[project.id]};"
-                onMouseOut= "this.src={screenshots[project.id]};"
-                src={screenshots[project.id]} alt=''/>
-                </a>
-                } */
-
-                /*{
-
-                </div>
-                }*/
-          }
 
             <div className='projectRightDiv'>
 
               <div className='projectTitle'>
                 <h2><a href={project.webside} target='_blank' rel='noopener noreferrer'>{project.title}</a></h2>
               </div>
-s
+
               <div className='projectDescription'>
                 {project.description.map ((line, index) => {
                   return (
