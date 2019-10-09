@@ -153,7 +153,7 @@ class MyProjects extends Component {
               onMouseOver={this.handleOnMouseOver}
               onMouseOut={this.handleOnMouseOut}>
 
-              {!this.state.displayGif
+              {this.state.displayGif
                 ? <img src={gifs[project.id]} alt=''></img>
                 : <img src={screenshots[project.id]} alt=''></img> }
 
