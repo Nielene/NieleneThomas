@@ -128,10 +128,14 @@ class MyProjects extends Component {
         <div key={project.id} className={project.className}>   {/* {do i need a className in json file?} */ }
 
           <div className='projectDiv'
-            onMouseOver={this.state.screenshot_GifToggle}
-            onMouseOut={this.state.gif_ScreenshotToggle}>
+            >
 
             <div className='projectLeftDiv'>
+              <img src={screenshots[project.id]} alt=''
+                onMouseOver={this.screenshot_GifToggle}
+                onMouseOut={this.gif_ScreenshotToggle}>
+              </img>
+
               {this.screenshot_GifToggle}
             </div>
 
