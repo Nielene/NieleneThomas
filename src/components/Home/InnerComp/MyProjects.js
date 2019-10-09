@@ -25,6 +25,8 @@ class MyProjects extends Component {
     this.state = {
       onMouseOver: false,
       onMouseOut: true,
+      imageDiv: '',
+      displayGif: '',
     }
   }
 
@@ -74,20 +76,53 @@ class MyProjects extends Component {
 
   }
 
+  screenshotGifToggle = () => {
+    if (this.state.displayGif) {
+      return gifs.map((gif, index) => {
+        return (
+          <div className='projectLeftDiv'>
+            <img src={gifs[index]} alt=''></img>
+          </div>
+        )
+      })
+    } else {
+      return screenshots.map((screenshot, index) => {
+        return (
+          <div className='projectLeftDiv'>
+            <img src={screenshots[index]} alt=''></img>
+          </div>
+        )
+      })
+    }
+  }
+
   projects = () => {
     return mainProjects.map( project => {
       return (
         <div key={project.id} className={project.className}>   {/* {do i need a className in json file?} */ }
 
-          <div className='projectDiv'>
+          <div className='projectDiv' onMouseOver={this.state.displayGif}>
 
-            <div className='projectLeftDiv'>
-              <img src={screenshots[project.id]} alt=''></img>
-            </div>
+            if (this.state.displayGif) {
+              <div className='projectLeftDiv'>
+                <img src={gifs[project.id]} alt=''></img>
+              </div>
+            } else {
+              <div className='projectLeftDiv'>
+                <img src={screenshots[project.id]} alt=''></img>
+              </div>
+            }
+
 
 
             {
               /* {
+              <div className='projectLeftDiv'
+              onMouseOver={this.handleOnMouseOver}
+              name='imageDiv'
+              value={this.state.imageDiv}>
+              <img src={screenshots[project.id]} alt=''></img>
+              </div>
 
               <div className='projectLeftDiv'>
               <a href={project.website} onMouseOver={this.handleOnMouseOver()}>
