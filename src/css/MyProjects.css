@@ -19,19 +19,17 @@
 }
 .projectLeftDiv {
   width: 100%;
-  z-index: 1;
+  /* z-index: 1; */
 
 }
 .projectLeftDiv img {
   width: 100%;
   transition: width 1s;
-  /* z-index: 9; */
+  /* z-index: 1; */
   left: 0px;
 }
 .projectLeftDiv img:hover {
   width: 120%;
-  /* background-image: url('../assets/ezgif.com-video-to-gif.gif'); */
-  /* background: url(../assets/ezgif.com-video-to-gif.gif); */
 }
 
 .projectRightDiv {
@@ -39,7 +37,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  /* z-index: 9; */
+  /* z-index: 1; */
 
 }
 .projectTitle a {

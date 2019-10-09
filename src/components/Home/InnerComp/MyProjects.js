@@ -1,8 +1,8 @@
 import React , { Component } from 'react';
-import dashingScreenshot from '../../../assets/Dashing_screenshot.png';
-import reredditScreenshot from '../../../assets/re_reddit_screenshot_2.png';
+import dashingScreenshot from '../../../assets/Dashing_Screenshot.png';
+import reredditScreenshot from '../../../assets/re_reddit_screenshot.png';
 import dashingGif from '../../../assets/ezgif.com-crop.gif'
-import reredditGif from '../../../assets/re_reddit_screenshot_2.png'
+import reredditGif from '../../../assets/re_reddit_screenshot.png'
 import github_icon from '../../../assets/github_icon.png';
 import external_link_icon from '../../../assets/www_web_icon.png';
 import mainProjects from './MyProjectsData/MainProjects.json';
