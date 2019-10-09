@@ -15,12 +15,6 @@ class Navbar extends Component {
         </div>
 
         <div className='nav_liListDiv'>
-          {/*
-          // <div className='arrowUpIcon'>
-          //   <a href='#smallIntro'> <img src={arrowUp} alt=''/> </a>
-          // </div>
-          */}
-
 
           <div>
             <li>

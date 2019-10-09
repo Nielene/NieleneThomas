@@ -27,21 +27,21 @@
 
   padding: 0px 50px 40px 60px;
   border-radius: 5px;
-
 }
 
 .homeComponent {
-  padding: 100px 0 130px 0;
+  padding: 120px 0 110px 0;
   margin: 0px 0 0px 0;
 }
 
 #smallIntro {
-  padding: 100px 0 70px 0;
-  margin-top: 90px;
+  padding: 200px 0 120px 0;
+  margin-top: 0px;
 }
 #myOtherProjects {
-  margin-top: -50px;
+  padding-top: 0px;
 }
 #contactMe {
+  padding-bottom: 50px;
   margin-bottom: 0px;
 }

@@ -34,17 +34,4 @@ class RightArrowUp extends React.Component {
 }
 
 
-// class RightArrowUp extends Component {
-//   render() {
-//     return (
-//
-//       <nav className='arrowUpIcon'>
-//         <a href='#smallIntro'> <img src={arrowUp} alt=''/> </a>
-//       </nav>
-//
-//     )
-//   }
-//
-// }
-
 export default withRouter(RightArrowUp);
