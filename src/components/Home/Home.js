@@ -11,20 +11,6 @@ import RightArrowUp from '../Navbar/RightArrowUp'
 
 class Home extends Component {
 
-  // window.onscroll = function() { myFunction() }
-  //
-  // function myFunction () {
-  //
-  //
-  //   var height = $(window).scrollTop();
-  //
-  //   if(height  > 1000) {
-  //       // do something
-  //   };
-  // }
-
-  // $(window).scroll(function() {
-
   render() {
     return (
       <div className='Home_and_ArrowUp_Div'>
