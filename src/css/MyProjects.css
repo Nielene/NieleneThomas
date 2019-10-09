@@ -38,8 +38,8 @@
   flex-direction: column;
   align-items: flex-end;
   /* z-index: 1; */
-
 }
+
 .projectTitle a {
   color: #2F3E46;
   font-size: 32px;
