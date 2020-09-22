@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "className": "projectBorderDiv",
     "title": "Dashing",
     "website": "https://aqueous-falls-38921.herokuapp.com/",
     "github": "https://github.com/isaink/dashing/tree/nielene_deployTest",
@@ -17,6 +18,7 @@
 
   {
     "id": 2,
+    "className": "projectBorderDiv",
     "title": "ReReddit",
     "website": "",
     "github": "https://github.com/Nielene/ReReddit",

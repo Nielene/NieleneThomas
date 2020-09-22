@@ -4,6 +4,7 @@ import AboutMe from './InnerComp/AboutMe'
 import MyProjects from './InnerComp/MyProjects'
 import MyOtherProjects from './InnerComp/MyOtherProjects'
 import ContactMe from './InnerComp/ContactMe'
+import ContactMe2 from './InnerComp/ContactMe2'
 import '../../css/Home.css'
 import RightArrowUp from '../Navbar/RightArrowUp'
 // import $ from 'jquery';
@@ -33,6 +34,10 @@ class Home extends Component {
 
           <div id='contactMe' className='homeComponent' >
             < ContactMe />
+          </div>
+
+          <div id='contactMe' className='homeComponent'>
+            < ContactMe2 />
           </div>
 
 

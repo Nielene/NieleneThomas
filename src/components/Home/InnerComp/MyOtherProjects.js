@@ -49,19 +49,31 @@ class MyOtherProjects extends Component {
     return otherProjects.map( project => {
       return (
         <div key={project.id} className={project.className}>
-          <div className='linkIcons'>
-            <a href={project.github} target='_blank' rel='noopener noreferrer'><img src={github_icon} alt=''/></a>
-            <a href={project.website} target='_blank' rel='noopener noreferrer'><img src={external_link_icon} alt=''/></a>
-          </div>
-          <div className='otherPro_title'>{project.title}</div>
-          <div className ='otherPro_description'>{project.description}</div>
-          <div className='languagesArray'>{project.languages.map((language, index) => {
-            return (
-              <div key={index} className='eachLanguage'>
-                <p><b> {language} </b></p>
+
+          <div className='proTitle_and_icons'>
+            <div className='otherPro_title'>{project.title}</div>
+
+            <div className='linkIconsOuterDiv'>
+              <div className='linkIconsInnerDiv'>
+                <a href={project.github} target='_blank' rel='noopener noreferrer'><img src={github_icon} alt=''/></a>
               </div>
-            )
-          })}</div>
+              <div className='linkIconsInnerDiv'>
+                <a href={project.website} target='_blank' rel='noopener noreferrer'><img src={external_link_icon} alt=''/></a>
+              </div>
+            </div>
+          </div>
+
+          <div className = 'otherPro_main_body'>
+            <div className ='otherPro_description'><p>{project.description}</p></div>
+            <div className='languagesArray'>{project.languages.map((language, index) => {
+              return (
+                <div key={index} className='eachLanguage'>
+                  <p><b> {language} </b></p>
+                </div>
+              )
+            })}</div>
+          </div>
+
         </div>
       )
     })

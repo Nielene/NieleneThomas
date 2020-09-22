@@ -53,7 +53,7 @@
 .nav_liListDiv a {
   text-decoration: none;
   color: #84A98C;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 17px;
 }
 

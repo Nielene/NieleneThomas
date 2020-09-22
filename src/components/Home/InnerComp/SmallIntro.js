@@ -6,20 +6,16 @@ class SmallIntro extends Component {
     return (
         <div className='smallIntroDiv'>
 
-          <div className='greetingHi'>
-            <p>Hi! My name is </p>
-          </div>
-
           <div className='name'>
             <h1>Nielene Thomas.</h1>
           </div>
 
           <div className='career'>
-            <h1>I'm a Full-Stack Web Developer.</h1>
+            <h1>Full-Stack Web Developer</h1>
           </div>
 
           <div className='shortTalk'>
-            <p>I'm a Full-stack Web Developer from New York, NY who loves creating dynamic websites and applications. </p>
+            <p>I love good work and good people. </p>
           </div>
 
         </div>

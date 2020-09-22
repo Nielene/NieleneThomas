@@ -13,10 +13,109 @@ correct format:
 
 ```
 
+https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+```css
+div.polaroid {
+  width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+div.rotate_right {
+  float: left;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  transform: rotate(7deg);
+}
+
+div.rotate_left {
+  float: left;
+  -ms-transform: rotate(-8deg); /* IE 9 */
+  -webkit-transform: rotate(-8deg); /* Safari */
+  transform: rotate(-8deg);
+}
+```
+Note:
+https://www.w3schools.com/css/css_align.asp
+
+https://pagedart.com/blog/single-quote-in-html/
+
+https://www.degraeve.com/reference/specialcharacters.php
+
+
+
+
+--------------
+Add a blur effect to the shadow:
+https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+
+box-shadow: 5px 10px 8px #888888:
+The optional third value adds a blur effect to the shadow.
+
+box-shadow: 5px 10px 18px #888888:
+More blurred.
+-------------------------
+```css
+.smallIntroDiv {
+  padding-left: 20px;
+  border: 1pt solid #84A98C;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 5px;
+}
+
+{
+  border: 1pt solid #84A98C;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 5px;
+}
+```
+
+
 coolors:
 --green--
 https://coolors.co/cad2c5-84a98c-52796f-354f52-2f3e46
+darkest green: #2F3E46  rgb(47, 62, 70)         ColorZilla Chrome extension
+next darkest green:  #354F52  rgb(53, 79, 82)
+next darkest green:  #52796F  rgb(82, 121, 111)  
+lightest green:  #84A98C  rgb(132, 169, 140)
+greyish: #CAD2C5
 
+.App: #CAD2C5;
+.homeDiv: #FFFFFF;
+.Home_and_ArrowUp_Div: width: 100%;
+
+-----------
+https://www.colorhexa.com/84a98c
+shades of #84A98C
+
+-----------
+CSS Linear Gradient
+css tricks
+https://css-tricks.com/snippets/css/css-linear-gradient/#:~:text=It's%20called%20%E2%80%9Clinear%E2%80%9D%20because%20the,Values%20and%20Replaced%20Content%20specification.
+
+-----------
+Font picker - chrome extension:
+change the font-weights:
+
+index.css:
+```css
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 24.36px;
+  font-weight: 300;
+  /* line-height: 41.76px; */
+  color: rgb(51, 51, 51);
+}
+```
+AboutMe.css 12 49 55
+ContactMe.css 22
+MyOtherProjects: 56 73 80 91
+MyProjects: 60 74
+Navbar: 56
+SmallIntro: 9 31
+index.css : 11
+--------------
 
 color producer:
 https://cssgenerator.org/rgba-and-hex-color-generator.html
@@ -88,14 +187,21 @@ https://github.com/isaink/dashing/blob/nielene_SingleService/frontend/src/compon
 being used in MyProjects.js
 
 **NEED TO:**
-parse JSON file to get <p></p> tags explicitly from .json file into js presentation file - without having to use 'line1,...'
--- GOT IT MOSTLY! Did in in MyOtherProjects.js
+* parse JSON file to get <p></p> tags explicitly from .json file into js presentation file - without having to use 'line1,...'
+- GOT IT MOSTLY! Did in in MyOtherProjects.js
 
 
 
+**NEED TO**
+* changing font-weight and font-family throughout. something more appealing.
 
+* ContactMe - use email logo
 
+* target all href links to BLANK
 
+* Photo: needs to be able to scale with changing screen size
+
+* p all same size
 
 
 

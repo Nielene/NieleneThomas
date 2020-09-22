@@ -1,5 +1,5 @@
 .Home_and_ArrowUp_Div {
-  width: 80%;
+  /* width: 80%; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -22,10 +22,10 @@
 
 
 .homeDiv {
-  background-color: #CAD2C5;
+  background-color: #FFFFFF;
   color: white;
 
-  padding: 0px 50px 40px 60px;
+  /* padding: 0px 50px 40px 60px; */
   border-radius: 5px;
 }
 

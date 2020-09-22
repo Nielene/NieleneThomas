@@ -1,8 +1,9 @@
 import React , { Component } from 'react';
 import linkedin_3_512 from '../../../assets/linkedin_3_512.png'
 import github_icon from '../../../assets/github_icon.png'
-import white_gmail_logo from '../../../assets/white_gmail_logo.png'
-import '../../../css/ContactMe.css';
+import email_logo_kindpng from '../../../assets/email_logo_kindpng.png'
+
+import '../../../css/ContactMe2.css';
 
 class ContactMe extends Component {
   state = {
@@ -25,16 +26,22 @@ class ContactMe extends Component {
 
         </div>
 
+
+
+
+
+
+
+
+
         <div className='quote'>
         <p>"Projects can always be improved as you improve. They are each a measure of your growth. Our lives are the biggest projects that are always in progress."</p>
         </div>
 
-
-
         <span className='contactMe'>
           <a href='https://www.linkedin.com/in/nielene/' target='_blank' rel='noopener noreferrer'> <img src={linkedin_3_512} alt=''/> </a>
           <a href='https://github.com/Nielene' target='_blank' rel='noopener noreferrer'> <img src={github_icon} alt=''/> </a>
-          <a href={"mailto:" + this.state.email}><img src={white_gmail_logo} alt=''/> </a>
+          <a href={"mailto:" + this.state.email}><img src={email_logo_kindpng} alt=''/> </a>
         </span>
 
 
