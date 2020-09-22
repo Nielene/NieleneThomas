@@ -51,13 +51,9 @@ span.contactMe {
   margin: 0px;
 }
 .contactMe img {
-  padding-right: 10px;
-}
-
-.contactMe img {
+  /* padding-right: 10px; */
   height: 50px;
 }
-
 
 .line1 {
 }
