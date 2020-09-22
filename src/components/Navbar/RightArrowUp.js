@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import arrowUp from '../../assets/double_arrow_up.png'
+import arrowup from '../../assets/arrowup.png'
 import '../../css/Navbar.css'
 
 
@@ -29,7 +29,7 @@ class RightArrowUp extends React.Component {
 
     render(){
         const classHide = this.state.isHide ? 'hide' : '';
-        return <div className={`arrowUpIcon ${classHide}`}><a href='#smallIntro'> <img src={arrowUp} alt=''/></a></div>;
+        return <div className={`arrowUpIcon ${classHide}`}><a href='#smallIntro'> <img src={arrowup} alt=''/></a></div>;
     }
 }
 

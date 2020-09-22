@@ -77,7 +77,7 @@ input.inputButton {
   flex-direction: row;
   justify-content: space-between;
   /* background-color: #84A98C; */
-  background: linear-gradient(-45deg, #84A98C 0%, #ecf2ed 35%, #84A98C 100%);
+  background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 35%, #84A98C 100%);
   padding-left: -50px;
 
 }
@@ -96,6 +96,7 @@ input.inputButton {
   display: flex;
   flex-direction: row;
   /* justify-content: flex-end; */
+  align-items: center;
 }
 .linkIconsInnerDiv {
   /* background-color: #52796F; */

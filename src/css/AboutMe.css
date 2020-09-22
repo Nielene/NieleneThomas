@@ -53,24 +53,53 @@
 .paragraphs p {
   color: #52796F;
   /* font-weight: bold; */
-  padding: 0px 10px 20px 10px;
+  padding: 0px 10px 0px 10px;
 }
 .paragraphs a {
   color: #84A98C;
-  margin: 0 5px 0 5px;
+  /* margin: 0 5px 0 0; */
   text-decoration: none;
 }
 
 
 .ulListsDiv {
-  width: 80%;
+  width: 100%;
   display: flex;
+  /* flex-direction: row;
+  justify-content: space-between; */
+  /* width: fit-content; */
+  border: 1px solid black;
+  height: 100px;
+}
+.ulListsDiv ul {
+  /* width: fit-content; */
+  padding: 0 0 0 20px;
+  /* height: 100px; */
+
+  /* padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px solid silver; */
+  /* -ms-box-orient: horizontal; */
+  /* display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex; */
+  display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
 
 }
 .ulListsDiv li {
   padding-bottom: 10px;
+  list-style-type: none;
+  font-size: 19px;
+
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: space-around; */
 }
 
 .rightSide {

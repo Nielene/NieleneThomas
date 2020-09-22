@@ -203,6 +203,9 @@ being used in MyProjects.js
 
 * p all same size
 
+* arrowUp css is in BOTH Home.css and Navbar.css
+
+
 
 
 
