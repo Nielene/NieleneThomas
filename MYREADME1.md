@@ -214,6 +214,11 @@ https://codepen.io/melonknee614/pen/mHDgz
 
 * arrowUp css is in BOTH Home.css and Navbar.css
 
+* change MyProjects languages:
+  color: #84A98C;
+  font-size: 18;
+  font-family: Roboto, Sans-serif
+
 
 
 
