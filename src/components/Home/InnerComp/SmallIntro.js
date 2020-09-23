@@ -1,9 +1,11 @@
 import React , { Component } from 'react';
-import '../../../css/SmallIntro.css'
+import '../../../css/SmallIntro.css';
+import do_great_things_unsplash from '../../../assets/do_great_things_unsplash.jpg'
 
 class SmallIntro extends Component {
   render() {
     return (
+      <div className='smallIntro_background_image' style={{backgroundImage: "url(" + do_great_things_unsplash + ")"}}>
         <div className='smallIntroDiv'>
 
           <div className='name'>
@@ -19,6 +21,7 @@ class SmallIntro extends Component {
           </div>
 
         </div>
+      </div>
 
     )
   }
