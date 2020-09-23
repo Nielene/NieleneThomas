@@ -32,7 +32,7 @@ class MyProjects extends Component {
     this.setState ({
       displayGif: true
     })
-    console.log('hello');
+    // console.log('hello');
   }
 
   handleOnMouseOut = (e) => {

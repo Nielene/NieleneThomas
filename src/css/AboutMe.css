@@ -6,7 +6,6 @@
   padding: 10px 0 0 0;
   box-shadow: 5px 10px 18px #888888;
   background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 25%, #84A98C 50%, #bed1c2 85%, #84A98C 100%);
-
 }
 
 .compTitle h1 {
@@ -61,7 +60,6 @@
   text-decoration: none;
 }
 
-
 .ulListsDiv {
   font-family: monospace;
   width: 100%;
@@ -69,7 +67,6 @@
   display: flex;
 }
 .ulListsDiv ul {
-  /* width: fit-content; */
   padding: 0 0 0 20px;
   margin: 0px;
 
@@ -82,7 +79,6 @@
 .ulListsDiv li {
   list-style-type: none;
   font-size: 19px;
-
 }
 
 .rightSide {

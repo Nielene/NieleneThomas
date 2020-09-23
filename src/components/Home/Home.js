@@ -8,8 +8,6 @@ import '../../css/Home.css'
 import RightArrowUp from '../Navbar/RightArrowUp'
 import do_great_things_unsplash from '../../assets/jantine-doornbos-xt9tb6oa42o-unsplash.jpg'
 
-// import $ from 'jquery';
-
 
 class Home extends Component {
 
