@@ -186,6 +186,9 @@ create array of imported pics in js file:
 https://github.com/isaink/dashing/blob/nielene_SingleService/frontend/src/components/HomePage/SingleService.js
 being used in MyProjects.js
 
+white-space: nowrap
+https://www.w3schools.com/css/css_text_spacing.asp
+
 **NEED TO:**
 * parse JSON file to get <p></p> tags explicitly from .json file into js presentation file - without having to use 'line1,...'
 - GOT IT MOSTLY! Did in in MyOtherProjects.js

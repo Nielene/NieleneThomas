@@ -9,7 +9,6 @@
   font-size: 40px;
   margin: 0px;
   color: #354F52;
-  /* font-weight: bolder; */
 }
 
 .line1 {
@@ -46,60 +45,40 @@
 
 .leftSide li {
   color: #84A98C;
-  /* font-weight: bold; */
 }
 
 
 .paragraphs p {
   color: #52796F;
-  /* font-weight: bold; */
   padding: 0px 10px 0px 10px;
 }
 .paragraphs a {
   color: #84A98C;
-  /* margin: 0 5px 0 0; */
   text-decoration: none;
 }
 
 
 .ulListsDiv {
+  font-family: monospace;
   width: 100%;
-  display: flex;
-  /* flex-direction: row;
-  justify-content: space-between; */
-  /* width: fit-content; */
-  border: 1px solid black;
   height: 100px;
+  display: flex;
 }
 .ulListsDiv ul {
   /* width: fit-content; */
   padding: 0 0 0 20px;
-  /* height: 100px; */
+  margin: 0px;
 
-  /* padding: 0;
-  margin: 0;
-  list-style: none;
-  border: 1px solid silver; */
-  /* -ms-box-orient: horizontal; */
-  /* display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
+  justify-content: flex-start;
+  align-items: center;
 }
 .ulListsDiv li {
-  padding-bottom: 10px;
   list-style-type: none;
   font-size: 19px;
 
-  /* display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: space-around; */
 }
 
 .rightSide {
@@ -109,7 +88,6 @@
 }
 
 .rightSideImgDiv {
-  /* width: 284px; */
   height: 335px;
   padding: 10px;
   border: 1px solid #BFBFBF;
@@ -124,7 +102,6 @@
 
 .rightSideImgDiv img {
   width: 260px;
-  /* height: 300px; */
   text-align: center;
   border: 2px solid #84A98C;
 }

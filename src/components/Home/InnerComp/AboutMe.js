@@ -31,14 +31,14 @@ class AboutMe extends Component {
 
               <div className='ulListsDiv'>
                 <ul>
-                  <li>HTML5 & CSS3</li>
-                  <li>JavaScript (ES6)</li>
-                  <li>React</li>
-                  <li>Redux</li>
-                  <li>Node.js</li>
-                  <li>SQL</li>
-                  <li>Express</li>
-                  <li>PostgreSql Database</li>
+                  <li>HTML5 & CSS3 &nbsp;&nbsp;&nbsp;</li>
+                  <li>JavaScript (ES6)    &nbsp;&nbsp;&nbsp;</li>
+                  <li>React    &nbsp;&nbsp;&nbsp;</li>
+                  <li>Redux    &nbsp;&nbsp;&nbsp;</li>
+                  <li>Node.js    &nbsp;&nbsp;&nbsp;</li>
+                  <li>SQL    &nbsp;&nbsp;&nbsp;</li>
+                  <li>Express    &nbsp;&nbsp;&nbsp;</li>
+                  <li>PostgreSql Database    &nbsp;&nbsp;&nbsp;</li>
                   <li>Git</li>
                 </ul>
               </div>
