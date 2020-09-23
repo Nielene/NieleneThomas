@@ -1,6 +1,5 @@
 import React , { Component } from 'react';
 import '../../../css/SmallIntro.css';
-// import do_great_things_unsplash from '../../../assets/do_great_things_unsplash.jpg'
 
 class SmallIntro extends Component {
   render() {

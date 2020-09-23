@@ -6,7 +6,6 @@
 }
 
 .greetingHi p {
-  /* font-weight: 700; */
   font-size: 24px;
   font-stretch: expanded;
   color: #52796F;
@@ -28,7 +27,6 @@
   width: 600px;
   margin-top: 30px;
   color: #52796F;
-  /* font-weight: 700; */
   font-stretch: semi-expanded;
   font-size: 24px;
 }
