@@ -46,7 +46,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  /* z-index: 1; */
 }
 
 .projectTitle a {
@@ -63,9 +62,7 @@
   margin-bottom: 5px;
 
   border: 2px solid #84A98C;
-  /* background-color: #354F52; */
   color: #CAD2C5;
-  /* font-weight: 500; */
   font-stretch: extra-expanded;
   background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 25%, #84A98C 50%, #bed1c2 85%, #84A98C 100%);
 
@@ -75,6 +72,7 @@
   text-align: left;
   justify-content: flex-start;
   margin: 5px;
+  color: #354F52;
 }
 
 .projectLanguages ul {

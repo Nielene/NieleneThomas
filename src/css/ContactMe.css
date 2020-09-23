@@ -9,24 +9,19 @@
   justify-content: center;
 }
 .quote p {
-  /* background-color: #52796F; */
-  padding: 40px;
+  padding: 60px;
   width: 43%;
   font-family: cursive;
   font-size: 22px;
   font-stretch: extra-expanded;
-  /* margin-bottom: 90px; */
+  word-spacing: 5px;
 
-  /* padding-left: 20px; */
   border: 1pt solid #84A98C;
   box-shadow: 5px 10px 18px #888888;
   border-radius: 50%;
 
   background-color: #FFFFFF;
-  /* padding: 30px; */
   margin: 10px 10px 40px 10px;
-  /* margin-bottom: 40px; */
-  /* width: 400px; */
   text-align: center;
 }
 
