@@ -189,6 +189,9 @@ being used in MyProjects.js
 white-space: nowrap
 https://www.w3schools.com/css/css_text_spacing.asp
 
+backgroundImage inline:
+https://stackoverflow.com/questions/39195687/setting-a-backgroundimage-with-react-inline-styles 
+
 **NEED TO:**
 * parse JSON file to get <p></p> tags explicitly from .json file into js presentation file - without having to use 'line1,...'
 - GOT IT MOSTLY! Did in in MyOtherProjects.js

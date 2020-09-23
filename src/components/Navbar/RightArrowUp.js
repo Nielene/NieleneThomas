@@ -29,7 +29,7 @@ class RightArrowUp extends React.Component {
 
     render(){
         const classHide = this.state.isHide ? 'hide' : '';
-        return <div className={`arrowUpIcon ${classHide}`}><a href='#smallIntro'> <img src={arrowup} alt=''/></a></div>;
+        return <div className={`arrowUpIcon ${classHide}`}><a href='#smallIntro_background_image'> <img src={arrowup} alt=''/></a></div>;
     }
 }
 

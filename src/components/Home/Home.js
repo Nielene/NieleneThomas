@@ -6,6 +6,8 @@ import MyOtherProjects from './InnerComp/MyOtherProjects'
 import ContactMe from './InnerComp/ContactMe'
 import '../../css/Home.css'
 import RightArrowUp from '../Navbar/RightArrowUp'
+import do_great_things_unsplash from '../../assets/do_great_things_unsplash.jpg'
+
 // import $ from 'jquery';
 
 
@@ -14,9 +16,11 @@ class Home extends Component {
   render() {
     return (
       <div className='Home_and_ArrowUp_Div'>
-        <div className='homeDiv'>
-          <div id='smallIntro' className='homeComponent' >
-            < SmallIntro />
+        <div className='homeDiv' id='homeDiv'>
+          <div className='smallIntro_background_image' id='smallIntro_background_image' style={{backgroundImage: "url(" + do_great_things_unsplash + ")"}}>
+            <div id='smallIntro' className='homeComponent' >
+              < SmallIntro />
+            </div>
           </div>
 
           <div id='aboutMe' className='homeComponent' >
