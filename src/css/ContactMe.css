@@ -1,3 +1,9 @@
+.quote_and_contactMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .quote {
   display: flex;
   justify-content: center;
@@ -26,20 +32,12 @@
 
 span.contactMe {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  /* align-items: center; */
-  /* background-color: #354F52; */
-  /* border: 2px solid #52796F; */
-  /* font-size: 20px; */
-  /* color: white; */
 
-
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    /* background: linear-gradient(-45deg, #84A98C 0%, #b2c9b7 40%, #84A98C 100%); */
-    background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 25%, #84A98C 50%, #bed1c2 70%, #84A98C 100%);
-    padding-left: -50px;
+  background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 25%, #84A98C 50%, #bed1c2 70%, #84A98C 100%);
+  padding-left: -50px;
+  width: 75%;
 }
 
 .contactMe a {

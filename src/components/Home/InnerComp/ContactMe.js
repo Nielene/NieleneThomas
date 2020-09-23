@@ -25,16 +25,17 @@ class ContactMe extends Component {
 
         </div>
 
-        <div className='quote'>
-        <p>"Projects can always be improved as you improve. They are each a measure of your growth. Our lives are the biggest projects that are always in progress."</p>
+        <div className='quote_and_contactMe'>
+          <div className='quote'>
+            <p>"Projects can always be improved as you improve. They are each a measure of your growth. Our lives are the biggest projects that are always in progress."</p>
+          </div>
+
+          <span className='contactMe'>
+            <a href='https://github.com/Nielene' target='_blank' rel='noopener noreferrer'> <img src={github_icon} alt=''/> </a>
+            <a className='contactMeByMail' href={"mailto:" + this.state.email}><img src={email_logo_kindpng} alt='' /> </a>
+            <a href='https://www.linkedin.com/in/nielene/' target='_blank' rel='noopener noreferrer'> <img src={linkedin_3_512} alt=''/> </a>
+          </span>
         </div>
-
-
-        <span className='contactMe'>
-          <a href='https://github.com/Nielene' target='_blank' rel='noopener noreferrer'> <img src={github_icon} alt=''/> </a>
-          <a className='contactMeByMail' href={"mailto:" + this.state.email}><img src={email_logo_kindpng} alt='' /> </a>
-          <a href='https://www.linkedin.com/in/nielene/' target='_blank' rel='noopener noreferrer'> <img src={linkedin_3_512} alt=''/> </a>
-        </span>
 
 
       </div>
