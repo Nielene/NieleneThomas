@@ -9,7 +9,7 @@ class Navbar extends Component {
 
         <div className='nav_nameDiv'>
           <div>
-            <h2> <a href='#smallIntro'> NieleneThomas </a></h2>
+            <h2> <a href='#smallIntro_AnchorTag'> NieleneThomas </a></h2>
           </div>
         </div>
 
@@ -17,7 +17,7 @@ class Navbar extends Component {
 
           <div>
             <li>
-              <p><a href='#aboutMe'> About Me </a></p>
+              <p><a href='#aboutMe_AnchorTag'> About Me </a></p>
             </li>
           </div>
 

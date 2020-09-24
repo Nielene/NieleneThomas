@@ -32,9 +32,27 @@
   background-size: cover;
 }
 
+#smallIntro_AnchorTag {
+  background-color: black;
+  margin: -30px 0 -150px 0;
+  position: relative;
+  z-index: -1;
+}
 #smallIntro {
   padding: 100px 0 0 0;
   margin-top: 0px;
+  /* position: absolute;
+  top: 50px; */
+}
+
+#aboutMe_AnchorTag {
+  background-color: blue;
+
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50px;
 }
 #aboutMe {
   padding-top: 0px;
