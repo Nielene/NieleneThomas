@@ -285,11 +285,11 @@ sudo npm install -g firebase-tools
 
 ----------
 # on google #
-have firebase acct. firebase.google.commit
-Add project
+*** have firebase acct. firebase.google.commit ***
+*** Add project ***
 # NOW -> go to command line / terminal to install firebase tools #
 npm install firebase-tools -g
-# go to project folder. cancel out of any running server ( control + c)#
+## -- go to project folder. cancel out of any running server ( control + c) -- ##
 firebase login
 # opens a browser window. choose an acct. reutrn to command line
 npm run build
@@ -297,20 +297,29 @@ npm run build
 firebase init
 # choose Hosting. spacebar. enter.
 # select project you created in firebase console of projects.
---> What do you want to use as your public directory?
+***--> What do you want to use as your public directory?***
   -- build
---> configure as a single page?
+***--> configure as a single page?***
   -- yes
---> file build/index.html already exists. overwrite?
-  -- no  (if you like your index.html)
-  -- yes (if used npx create-react-app and have no index.html)
+***--> file build/index.html already exists. overwrite?***
+  -- no  *** (if you like your index.html) ***
+  -- yes *** (if used npx create-react-app and have no index.html) ***
 # initialization Complete
 # settings tab --> project settings --> general --> copy Project ID
 firebase use <project ID>
--- eg firebase use fir-project-951e5 --
+***-- eg. firebase use fir-project-951e5 --***
+***-- eg. firebase use nieleneethomas --***
 # now knows where to deploy all these files to #
 firebase deploy
 
+
+Project Console: https://console.firebase.google.com/project/nieleneethomas/overview
+Hosting URL: https://nieleneethomas.web.app
+
+
+581  npm run build
+582  firebase init
+583  firebase deploy
 
 
 
