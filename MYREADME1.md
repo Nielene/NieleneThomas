@@ -238,12 +238,81 @@ https://codepen.io/melonknee614/pen/mHDgz
 <script src="/__/firebase/init.js"></script>
 
 ----------
+Firebase deployment:
 
 removed from .gitignore:
 THIS -->
 # production
 /build
 <-- THIS
+
+🔴Full Stack React and Firebase Tutorial - Build a Facebook Messenger Clone
+https://www.youtube.com/watch?v=KB7JEnfc7Dc
+
+Fast React Website Deployment With Firebase
+https://www.youtube.com/watch?v=IDHfvpsYShs
+
+
+sudo npm install -g firebase-tools
+ 531  firebase init
+ 532  firebase login
+ 533  firebase init
+ 534  firebase init
+ 535  firebase init
+ 536  firebase init
+ 537  history
+ 538  npm install firebase
+ 539  npm audit fix
+ 540  firebase init
+ 541  firebase init
+ 542  firebase deploy
+
+ 543  sudo npm install -g firebase-tools
+ 544  pwd
+ 545  npm run build
+ 546  firebase deploy
+
+ 547  firebase init
+ 548  npm run build
+ 549  firebase deploy
+ 550  firebase deploy
+ 551  pwd
+ 552  git add .
+ 553  git commit -m 'depeployed with firebase. now adjusting css for cell phones! oops.'
+ 554  git push origin master
+ 555  git status
+ 556  history
+
+----------
+# on google #
+have firebase acct. firebase.google.commit
+Add project
+# NOW -> go to command line / terminal to install firebase tools #
+npm install firebase-tools -g
+# go to project folder. cancel out of any running server ( control + c)#
+firebase login
+# opens a browser window. choose an acct. reutrn to command line
+npm run build
+# build folder of static files with webpack. now can initialize firebase inside folder #
+firebase init
+# choose Hosting. spacebar. enter.
+# select project you created in firebase console of projects.
+--> What do you want to use as your public directory?
+  -- build
+--> configure as a single page?
+  -- yes
+--> file build/index.html already exists. overwrite?
+  -- no  (if you like your index.html)
+  -- yes (if used npx create-react-app and have no index.html)
+# initialization Complete
+# settings tab --> project settings --> general --> copy Project ID
+firebase use <project ID>
+-- eg firebase use fir-project-951e5 --
+# now knows where to deploy all these files to #
+firebase deploy
+
+
+
 
 
 
