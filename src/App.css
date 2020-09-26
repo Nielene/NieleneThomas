@@ -5,7 +5,8 @@
   flex-direction: column;
 
   min-width: 710px;
-  width: fit-content;
+  /* width: fit-content; */
+  width: 100vw;
 
   align-items: center;
   align-content: center;
