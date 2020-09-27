@@ -1,79 +1,80 @@
 .nav {
+  /* display: flex;
+  flex-direction: row;
+
   position: fixed;
   top: 0px;
-  width: 100%;
+  left: 0px;
+  right: 0px;
+  width: 100vw;
   height: 80px;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   padding: 0;
   margin: 0px;
   align-items: center;
   border-radius: 5px;
 
-  background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 50%, #84A98C 100%);
+  background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 50%, #84A98C 100%); */
 }
 
 .nav a {
-  display: flex;
-  color: #354F52;
+  /* display: flex;
+  color: #354F52; */
 }
 
 .nav_nameDiv {
-  width: fit-content;
-  margin: 20px 20px 0 40px;
+  /* width: fit-content;
+  margin: 20px 20px 0 40px; */
 }
 
 .nav_nameDiv a {
-  font-family:fantasy;
+  /* font-family:fantasy;
   text-decoration: none;
-  padding-right: 15px;
+  padding-right: 15px; */
 }
 .nav_nameDiv a:hover {
-  color: white;
+  /* color: white; */
 }
 
 .nav_liListDiv {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  /* margin-right: 30px; */
-  /* margin-left: 30px; */
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .nav_liListDiv li {
-  list-style-type: none;
+  /* list-style-type: none;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 20px; */
 }
 .nav_liListDiv a {
-  text-decoration: none;
+  /* text-decoration: none;
   font-weight: bold;
   font-size: 18px;
-  text-align: center;
+  text-align: center; */
 }
 
 .nav_liListDiv a:visited {
-  background-color: #2F3E46;
-  padding: 10px;
+  /* background-color: #2F3E46;
+  padding: 10px; */
 }
 
  .nav_liListDiv a:hover {
-  color: white;
-  text-decoration: underline white solid;
+  /* color: white;
+  text-decoration: underline white solid; */
 }
 
 .arrowUpIcon img {
-  border-radius: 50%;
+  width: 40px;
+  /* border-radius: 50%;
   background-color: #CAD2C5;
   padding: 5px;
   height: 35px;
   position: fixed;
   right: 40px;
-  bottom: 60px;
+  bottom: 60px; */
 }
 .arrowUpIcon img:hover {
-  background-color: #84A98C;
+  /* background-color: #84A98C; */
 }

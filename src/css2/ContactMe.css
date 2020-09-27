@@ -1,15 +1,15 @@
 .quote_and_contactMe {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: center; */
+  align-items: center;
 }
 
 .quote {
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
 }
 .quote p {
-  /* padding: 60px;
+  padding: 60px;
   width: 43%;
   font-family: cursive;
   font-size: 22px;
@@ -22,38 +22,36 @@
 
   background-color: #FFFFFF;
   margin: 10px 10px 40px 10px;
-  text-align: center; */
+  text-align: center;
 }
 
 span.contactMe {
-  /* display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 
   background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 25%, #84A98C 50%, #bed1c2 70%, #84A98C 100%);
   padding-left: -50px;
-  width: 75%; */
+  width: 75%;
 }
 
 .contactMe a {
-  /* height: 75px;
+  height: 75px;
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: white; */
+  color: white;
 }
 .contactMe p{
-  /* display: flex;
+  display: flex;
   align-items: center;
-  margin: 0px; */
+  margin: 0px;
 }
 .contactMe img {
-  width: 40px;
-  /* height: 50px; */
+  height: 50px;
 }
 .contactMeByMail img {
-  width: 40px;
-  /* height: 40px; */
+  height: 40px;
 }
 
 

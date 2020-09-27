@@ -289,6 +289,7 @@ sudo npm install -g firebase-tools
 *** Add project ***
 # NOW -> go to command line / terminal to install firebase tools #
 npm install firebase-tools -g
+npm install -g firebase-tools
 ## -- go to project folder. cancel out of any running server ( control + c) -- ##
 firebase login
 # opens a browser window. choose an acct. reutrn to command line
