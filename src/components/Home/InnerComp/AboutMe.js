@@ -26,15 +26,16 @@ class AboutMe extends Component {
 
               <div className='img_p_ul_div'>
 
+                <div className="img_p_div">
+                  <p>
+                    Hi. I&apos;ve been a FullStack Web Developer since 2018. Building my skills on my own and through <a href="https://twitter.com/joinpursuit?lang=en" target='_blank' rel='noopener noreferrer'> Pursuit </a> has been fun! See the progress!
+                    Here are the technologies I've been working with:
+                    <div className='rightSideImgDiv'>
+                      <img src= {myGithubPicture} alt='' />
+                    </div>
+                  </p>
 
-                <div className='rightSideImgDiv'>
-                  <img src= {myGithubPicture} alt='' />
                 </div>
-
-                <p>
-                  Hi. I&apos;ve been a FullStack Web Developer since 2018. Building my skills on my own and through <a href="https://twitter.com/joinpursuit?lang=en" target='_blank' rel='noopener noreferrer'> Pursuit </a> has been fun! See the progress!
-                  Here are the technologies I've been working with:
-                </p>
 
                 <ul>
                   <li>HTML5 & CSS3</li>
