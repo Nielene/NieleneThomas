@@ -41,16 +41,6 @@ class MyProjects extends Component {
     })
   }
 
-//   $(function(){
-//
-//     $('#show').on('click',function(){
-//         $('.card-reveal').slideToggle('slow');
-//     });
-//
-//     $('.card-reveal .close').on('click',function(){
-//         $('.card-reveal').slideToggle('slow');
-//     });
-// });
 
   projects = () => {
     return mainProjects.map( project => {
@@ -73,15 +63,15 @@ class MyProjects extends Component {
 
               <div className='projectTitle'>
                 <h2><a href={project.webside} target='_blank' rel='noopener noreferrer'>{project.title}</a></h2>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target={"#multiCollapseExample2" + project.id} aria-expanded="false" aria-controls={"multiCollapseExample2" + project.id}>&hellip;</button>
+                <button className="btn btn-primary" type="button" data-toggle="collapse" data-target={"#multiCollapseExample2" + project.id} aria-expanded="false" aria-controls={"multiCollapseExample2" + project.id}>&hellip;</button>
 
               </div>
 
-              <div class="row">
-                <div class="col">
-                  <div class="collapse multi-collapse" id={"multiCollapseExample2" + project.id}>
+              <div className="row">
+                <div className="col">
+                  <div className="collapse multi-collapse" id={"multiCollapseExample2" + project.id}>
+                    <div className="card card-body">
 
-                    <div class="card card-body">
                       <div className='projectDescription'>
                         {project.description.map ((line, index) => {
                           return (
@@ -91,14 +81,16 @@ class MyProjects extends Component {
                           )
                         })}
                       </div>
-                    </div>
 
+                      <div className='projectIcons'>
+                        <a href={project.github} target='_blank' rel='noopener noreferrer' id='img_github'><img src={github_icon} alt=''/></a>
+                        <a href={project.website} target='_blank' rel='noopener noreferrer' id='img_external_link'><img src={external_link_icon} alt=''/></a>
+                      </div>
+
+                    </div>
                   </div>
                 </div>
               </div>
-
-
-
 
               <div className='projectLanguages'>
                 <ul>
@@ -112,10 +104,6 @@ class MyProjects extends Component {
                 </ul>
               </div>
 
-              <div className='projectIcons'>
-                <a href={project.github} target='_blank' rel='noopener noreferrer' id='img_github'><img src={github_icon} alt=''/></a>
-                <a href={project.website} target='_blank' rel='noopener noreferrer' id='img_external_link'><img src={external_link_icon} alt=''/></a>
-              </div>
 
             </div>
           </div>
@@ -145,7 +133,7 @@ class MyProjects extends Component {
           </div>
 
         </div>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Expand all</button>
+        <button className="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle projects</button>
 
         <div className='my_projects_div'>
           {this.projects()}
