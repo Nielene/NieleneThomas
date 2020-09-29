@@ -83,11 +83,16 @@ class MyOtherProjects extends Component {
     return (
       <div>
         <div className='title_and_line'>
+
+          <div className='line1'>
+            <hr />
+          </div>
+
           <div className='compTitle'>
             <h1>My Other Projects</h1>
           </div>
 
-          <div className='line1'>
+          <div className='line2'>
             <hr />
           </div>
         </div>

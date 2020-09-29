@@ -64,8 +64,8 @@ class MyProjects extends Component {
               onMouseOut={this.handleOnMouseOut}>
 
               {this.state.displayGif
-                ? <img src={gifs[project.id]} alt=''></img>
-                : <img src={screenshots[project.id]} alt=''></img> }
+                ? <img src={gifs[project.id]} alt='gif of project'></img>
+                : <img src={screenshots[project.id]} alt='screenshot of project'></img> }
 
             </div>
 
@@ -73,7 +73,7 @@ class MyProjects extends Component {
 
               <div className='projectTitle'>
                 <h2><a href={project.webside} target='_blank' rel='noopener noreferrer'>{project.title}</a></h2>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target={"#multiCollapseExample2" + project.id} aria-expanded="false" aria-controls={"multiCollapseExample2" + project.id}>Toggle second element</button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target={"#multiCollapseExample2" + project.id} aria-expanded="false" aria-controls={"multiCollapseExample2" + project.id}>&hellip;</button>
 
               </div>
 
@@ -124,31 +124,7 @@ class MyProjects extends Component {
     })
   }
 
-  interpol8r = () => {
-    return (
-      <div>
 
-        <p>
-          <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-        </p>
-
-        <div class="row">
-
-          <div class="col">
-            <div class="collapse multi-collapse" id="multiCollapseExample1">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-          </div>
-
-
-
-        </div>
-
-      </div>
-    )
-  }
 
   render() {
     return (
@@ -156,19 +132,24 @@ class MyProjects extends Component {
 
         <div className='title_and_line'>
 
-          <div className='compTitle'>
-            <h1>MY PROJECTS</h1>
-          </div>
-
           <div className='line1'>
             <hr />
           </div>
 
+          <div className='compTitle'>
+            <h1>MY PROJECTS</h1>
+          </div>
+
+          <div className='line2'>
+            <hr />
+          </div>
+
         </div>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
-        
-        {this.projects()}
-        {this.interpol8r()}
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Expand all</button>
+
+        <div className='my_projects_div'>
+          {this.projects()}
+        </div>
 
       </div>
     )

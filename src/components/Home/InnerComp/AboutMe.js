@@ -29,15 +29,16 @@ class AboutMe extends Component {
                   <p>
                     Hi. I&apos;ve been a FullStack Web Developer since 2018. Building my skills on my own and through <a href="https://twitter.com/joinpursuit?lang=en" target='_blank' rel='noopener noreferrer'> Pursuit </a> has been fun! See the progress!
                     Here are the technologies I've been working with:
-                    <div className='rightSideImgDiv'>
-                      <img src= {myGithubPicture} alt='' />
-                    </div>
                   </p>
+                  <div className='rightSideImgDiv'>
+                    <img src= {myGithubPicture} alt='' />
+                  </div>
 
                 </div>
 
                 <ul>
-                  <li>HTML5 & CSS3</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
                   <li>JavaScript (ES6)   </li>
                   <li>React   </li>
                   <li>Redux   </li>

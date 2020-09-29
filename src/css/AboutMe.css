@@ -47,7 +47,7 @@
 
   width: inherit;
   margin: 0 10% 50px 10%;
-  padding: 20px 0 0 20px;
+  padding: 20px 20px 0 20px;
 }
 
 .belowHeading .img_p_ul_div {
@@ -57,8 +57,9 @@
 .img_p_div {
   display: flex;
   /* flex-wrap: wrap; */
-  /* flex-direction: row; */
-  margin: 0 11px 0 0;
+  flex-direction: column;
+  margin: 0 0 0 0;
+  align-items: center;
 }
 
 .belowHeading p {
@@ -80,7 +81,7 @@
 .rightSideImgDiv {
   width: 30%;
   height: fit-content;
-  margin: 10px 0 0 10px;
+  margin: -10px 0 0 10px;
   padding: 10px;
   border: 1px solid #84A98C;
   background-color: #FFFFFF;
@@ -89,12 +90,13 @@
   -ms-transform: rotate(-8deg);
   -webkit-transform: rotate(-8deg);
   transform: rotate(-8deg);
-  float: left;
+  /* float: left; */
+
 }
 
 .rightSideImgDiv img {
   width: 100%;
-  float: left;
+  /* float: left; */
 }
 
 
@@ -104,7 +106,7 @@
   flex-direction: row;
   justify-content: flex-start;
   /* float: ; */
-  width: 90%;
+  width: 100%;
   padding: 10px 10px 10px 20px;
 
   background-color: #FFFFFF;

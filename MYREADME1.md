@@ -237,7 +237,14 @@ https://codepen.io/melonknee614/pen/mHDgz
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js"></script>
 
-----------
+--------------------
+#Collapse
+Toggle the visibility of content across your project with a few classes and our JavaScript plugins.
+https://getbootstrap.com/docs/4.0/components/collapse/#example
+
+Multiple targets
+
+--------------------
 Firebase deployment:
 
 removed from .gitignore:
@@ -251,7 +258,6 @@ https://www.youtube.com/watch?v=KB7JEnfc7Dc
 
 Fast React Website Deployment With Firebase
 https://www.youtube.com/watch?v=IDHfvpsYShs
-
 
 sudo npm install -g firebase-tools
  531  firebase init
