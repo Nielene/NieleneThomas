@@ -133,7 +133,10 @@ class MyProjects extends Component {
           </div>
 
         </div>
-        <button className="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle projects</button>
+
+        <div className='toggle_all_descriptions_div'>
+          <button className="btn btn-primary" id='toggle_all_descriptions' type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle projects</button>
+        </div>
 
         <div className='my_projects_div'>
           {this.projects()}

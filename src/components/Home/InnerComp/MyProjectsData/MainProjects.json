@@ -6,12 +6,10 @@
     "website": "https://aqueous-falls-38921.herokuapp.com/",
     "github": "https://github.com/isaink/dashing/tree/nielene_deployTest",
     "description": [
-      "Don't want to spend your entire day waiting in a salon? Let Dashing come to you!",
-      "Brought to you by my project group, JB INC., Dashing is the online destination for bringing beauty & wellness professionals to their client's home - Beauty-on-Delivery.",
-      "Talented licensed freelance professionals can showcase their work and connect with new & exisiting clients, all while building their business.",
-      "Explore Dashing today!"
+      "Dashing connects freelance beauty and wellness professionals with new and existing clients.",
+      "Brought to you by my project group, JB INC."
     ],
-    "languages": ["Redux", "React","Express","CSS"]
+    "languages": ["Redux","React","CSS","Express"]
 
 
   },
@@ -24,12 +22,9 @@
     "github": "https://github.com/Nielene/ReReddit",
     "description": [
         "ReReddit is my version of the popular Reddit site!",
-        "It uses an express backend and redux frontend, along with basic React/JavaScript.",
-        "Login and explore some posts - or add some! Also, comment on a post, or delete your comment; subscribe to a subreddit. See your list of subscribed subreddits in a dropdown list.",
-        "See for yourself.",
         "Visit my webapp!"
       ],
-      "languages": ["Redux", "React","Express","CSS"]
+      "languages": ["Redux","React","CSS","Express"]
 
 
 
