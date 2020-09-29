@@ -24,7 +24,6 @@ class AboutMe extends Component {
 
           <div className='belowHeading'>
 
-              <div className='img_p_ul_div'>
 
                 <div className="img_p_div">
                   <p>
@@ -48,10 +47,6 @@ class AboutMe extends Component {
                   <li>PostgreSql Database   </li>
                   <li>Git</li>
                 </ul>
-
-              </div>
-
-
 
 
           </div>
