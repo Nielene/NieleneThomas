@@ -47,14 +47,12 @@ class MyProjects extends Component {
       return (
         <div key={project.id} className={project.className}>   {/* {do i need a className in json file?} */ }
 
-          <div className='projectDiv'>
-
             <div className='projectLeftDiv'
               onMouseOver={this.handleOnMouseOver}
               onMouseOut={this.handleOnMouseOut}>
 
               {this.state.displayGif
-                ? <img src={gifs[project.id]} alt='gif of project'></img>
+                ? <img src={screenshots[project.id]} alt='gif of project'></img>
                 : <img src={screenshots[project.id]} alt='screenshot of project'></img> }
 
             </div>
@@ -106,7 +104,6 @@ class MyProjects extends Component {
 
 
             </div>
-          </div>
         </div>
       )
     })
@@ -132,14 +129,17 @@ class MyProjects extends Component {
             <hr />
           </div>
 
+
         </div>
 
-        <div className='toggle_all_descriptions_div'>
-          <button className="btn btn-primary" id='toggle_all_descriptions' type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle projects</button>
-        </div>
+        <div className='below_myprojects_heading'>
+          <div className='toggle_all_descriptions_div'>
+            <button className="btn btn-primary" id='toggle_all_descriptions' type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle projects</button>
+          </div>
 
-        <div className='my_projects_div'>
-          {this.projects()}
+          <div className='my_projects_div'>
+            {this.projects()}
+          </div>
         </div>
 
       </div>
