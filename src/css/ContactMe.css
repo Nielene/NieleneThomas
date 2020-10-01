@@ -1,59 +1,64 @@
 .quote_and_contactMe {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: center; */
+  align-items: center;
 }
 
 .quote {
-  /* display: flex;
-  justify-content: center; */
-}
-.quote p {
-  /* padding: 60px;
-  width: 43%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 933px;
+  margin: 10px 10% 50px 10%;
+  padding: 50px;
+  border: 1pt solid #84A98C;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+
   font-family: cursive;
   font-size: 22px;
   font-stretch: extra-expanded;
   word-spacing: 5px;
+  text-align: center;
 
-  border: 1pt solid #84A98C;
-  box-shadow: 5px 10px 18px #888888;
-  border-radius: 50%;
 
-  background-color: #FFFFFF;
-  margin: 10px 10px 40px 10px;
-  text-align: center; */
+}
+.quote p {
+  
 }
 
 span.contactMe {
-  /* display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 
   background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 25%, #84A98C 50%, #bed1c2 70%, #84A98C 100%);
   padding-left: -50px;
-  width: 75%; */
+  width: 75%;
+  height: 55px;
+  align-items: center;
 }
 
 .contactMe a {
-  /* height: 75px;
+  height: 75px;
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: white; */
+  color: white;
 }
 .contactMe p{
-  /* display: flex;
+  display: flex;
   align-items: center;
-  margin: 0px; */
+  margin: 0px;
 }
 .contactMe img {
   width: 40px;
-  /* height: 50px; */
+  height: 40px;
 }
 .contactMeByMail img {
   width: 40px;
-  /* height: 40px; */
+  height: 40px;
 }
 
 

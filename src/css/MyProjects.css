@@ -19,7 +19,6 @@
   width: 80%;
   margin: 0 10% 50px 10%;
   padding: 0 20px;
-  /* justify-content: center; */
 
   border: 1pt solid #84A98C;
   box-shadow: 5px 10px 18px #888888;
@@ -35,32 +34,13 @@
   justify-content: space-evenly;
   align-items: center;
   width:
-  /* margin: 0 10% 0px 10%; */
-
-
-
-}
-
-.projectBorderDiv {
-  /* padding: 20px;
-  margin-bottom: 50px;
-  border: 1pt solid #84A98C;
-  box-shadow: 5px 10px 18px #888888;
-  border-radius: 5px;
-  background-color: #FFFFFF; */
 }
 
 .projectBorderDiv {
   width: 40%;
   min-width: 250px;
-  /* min-width: 300px; */
   margin: 0 5% 50px 5%;
-  /* margin-bottom: 50px; */
   height: fit-content;
-  /* margin: 0 10% 50px 10%; */
-
-  /* margin: 0 0 30px 0; */
-  /* margin: 0 10% 50px 10%; */
 
   display: flex;
   flex-direction: row;
@@ -92,14 +72,9 @@
 /* } */
 
 .projectRightDiv {
-  /* margin: 0 10px 0 10px; */
   margin: 0 0 0 0;
   width: 100%;
   height: 38%;
-  /* width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; */
 }
 
 .projectTitle {
@@ -117,16 +92,7 @@
   font-size: 26px;
   margin: 0;
   padding: 10px 20px 5px 20px;
-  /* font-weight: ; */
 }
-
-/* .projectTitle button.btn .btn-primary { */
-  /* background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 35%, #84A98C 100%); */
-  /* background-color: none; */
-  /* border-color: none; */
-  /* padding: 0; */
-
-/* } */
 
 .btn {
     display: inline-block;
@@ -151,32 +117,24 @@
 
 button.btn.btn-primary {
     color: none;
-    /* background-color: none; */
     border-color: none;
-    /* background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 35%, #84A98C 100%); */
     background: none;
     padding: 0 20px 5px 0;
     margin: -10px 0 0 0;
     display: flex;
     align-items: center;
     font-size: 35px;
-    /* height: 20px; */
 }
 button.btn.btn-primary:hover {
-    color: #fff;
+    color: #FFF;
     background-color: none;
     border-color: #84A98C;
-    /* background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 35%, #84A98C 100%); */
-
 }
 
 .toggle_all_descriptions_div {
   display: flex;
   justify-content: flex-end;
-  /* margin-right: 10%; */
   margin-bottom: 20px;
-  /* height: fit-content; */
-
 }
 #toggle_all_descriptions {
   display: flex;
@@ -186,28 +144,11 @@ button.btn.btn-primary:hover {
   width: fit-content;
   height: 100%;
   padding: 5px 10px 5px 10px;
-
 }
 
-
-.projectTitle a {
-  /* color: #52796F;
-  font-size: 32px; */
-}
 
 .projectDescription {
   line-height: normal;
-  /* display: flex;
-  flex-direction: column;
-  padding-left: 20px;
-  padding: 15px;
-  margin-bottom: 5px;
-
-  border: 2px solid #84A98C;
-  color: #CAD2C5;
-  font-stretch: extra-expanded;
-  background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 25%, #84A98C 50%, #bed1c2 85%, #84A98C 100%); */
-
 }
 .projectDescription p {
   /* display: flex;
@@ -223,26 +164,16 @@ button.btn.btn-primary:hover {
   flex-direction: row;
   justify-content: flex-end;
 
-  /* color: #84A98C; */
   font-size: 16px;
   padding: 10px 20px 10px 10px;
   margin: 0;
 
   bottom: 0;
-
-  /* display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 90%;
-  padding: 10px 10px 10px 20px; */
 }
 
 .projectLanguages li {
   list-style-type: none;
   padding-left: 10px;
-  /* list-style-type: none;
-  padding-left: 30px; */
 }
 
 .projectIcons {
@@ -257,9 +188,4 @@ button.btn.btn-primary:hover {
   margin-left: 5px;
   border-radius: 50%;
   padding: 2px;
-  /* height: 40px;
-  padding: 0 5px 10px 0;
-  margin-right: 10px;
-  border-radius: 50%;
-  */
 }
