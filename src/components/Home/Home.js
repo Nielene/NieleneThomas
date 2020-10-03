@@ -20,7 +20,7 @@ class Home extends Component {
           </div>
 
           <div className='smallIntro_background_image' id='smallIntro_background_image' style={{backgroundImage: "url(" + do_great_things_unsplash + ")"}}>
-            <div id='smallIntro' className='homeComponent' >
+            <div id='smallIntroDiv' className='homeComponent' >
               < SmallIntro />
             </div>
           </div>

@@ -5,10 +5,11 @@
     "title": "Dashing",
     "website": "https://aqueous-falls-38921.herokuapp.com/",
     "github": "https://github.com/isaink/dashing/tree/nielene_deployTest",
-    "description": [
-      "Dashing connects freelance beauty and wellness professionals with new and existing clients.",
-      "Brought to you by my project group, JB INC."
-    ],
+    "description":
+      [
+        "Dashing connects freelance beauty and wellness professionals with new and existing clients.",
+        "Brought to you by my project group, JB INC."
+      ],
     "languages": ["Redux","React","CSS","Express"]
 
 
@@ -20,11 +21,12 @@
     "title": "ReReddit",
     "website": "",
     "github": "https://github.com/Nielene/ReReddit",
-    "description": [
+    "description":
+      [
         "ReReddit is my version of the popular Reddit site!",
         "Visit my webapp!"
       ],
-      "languages": ["Redux","React","CSS","Express"]
+    "languages": ["Redux","React","CSS","Express"]
 
 
 

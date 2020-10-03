@@ -1,3 +1,21 @@
+.navbar {
+  background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 50%, #84A98C 100%);
+  border: 1pt solid #84A98C;
+  border-radius: 5px;
+
+}
+
+#navbarNavDropdown {
+  /* background-color: #FFFFFF; */
+  margin: 0 -16px -8px -16px;
+  padding: 0 16px 8px 16px;
+}
+
+
+
+
+
+
 .nav {
   /* display: flex;
   flex-direction: row;

@@ -16,6 +16,18 @@
   width: 100vw; */
 }
 
+.AppNavbar {
+  /* display: block; */
+  /* position: fixed;
+  z-index: 0;
+  top: 0; */
+}
+.AppHome {
+  /* position: fixed;
+  z-index: 1;
+  top: 40px; */
+}
+
 
 
 
