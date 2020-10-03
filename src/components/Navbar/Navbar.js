@@ -46,7 +46,8 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="#smallIntro_AnchorTag">NieleneThomas</a>
+
+          <a className="navbar-brand" href="#smallIntro_AnchorTag" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">NieleneThomas</a>
 
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -60,15 +61,15 @@ class Navbar extends Component {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#myProjects">Projects</a>
+                <a className="nav-link" href="#myProjects_AnchorTag">Projects</a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#myOtherProjects">My Other Projects</a>
+                <a className="nav-link" href="#myOtherProjects_AnchorTag">My Other Projects</a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#contactMe">ContactMe</a>
+                <a className="nav-link" href="#contactMe_AnchorTag">ContactMe</a>
               </li>
 
               <li className="nav-item">
