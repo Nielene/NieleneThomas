@@ -175,7 +175,12 @@ input.inputButtonDiv:hover,
 .otherPro_main_body {
   margin: 0 0 0 0;
   width: 100%;
+  height: 134px;
   padding: 15px 15px 0 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   /* padding-left: 20px; */
 
   background-clip: border-box;
