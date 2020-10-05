@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 50px;
-  padding: 10px 0 0 0;
+  /* padding: 10px 0 0 0; */
   box-shadow: 5px 10px 18px #888888;
   background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 25%, #84A98C 50%, #bed1c2 85%, #84A98C 100%);
 }
@@ -13,7 +13,7 @@
   color: #354F52;
 }
 
-.line1 {
+/* .line1 {
   width: 100%;
 }
 .line1 hr {
@@ -30,7 +30,7 @@
   border-radius: 5px;
   background-color: #84A98C;
   margin: 0;
-}
+} */
 
 .aboutMeDiv {
 }

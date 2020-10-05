@@ -47,7 +47,7 @@ class Navbar extends Component {
       <div>
         <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 
-          <a className="navbar-brand" href="#smallIntro_AnchorTag" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">NieleneThomas</a>
+          <a className="nav-item nav-link navbar-brand" id='my_name' href="#smallIntro_AnchorTag"><p>Nielene Thomas</p></a>
 
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

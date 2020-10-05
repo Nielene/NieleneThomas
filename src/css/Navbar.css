@@ -8,11 +8,32 @@
 #navbarNavDropdown {
   /* background-color: #FFFFFF; */
   margin: 0 -16px -8px -16px;
-  padding: 0 16px 8px 16px;
+  /* padding: 0 16px 8px 16px; */
+  padding: 5px 16px 8px 30px;
 }
 
+
+
 .navbar-brand {
-  
+  padding: 0 0 0 10px;
+  /* width: fit-content; */
+  /* max-width: 100px; */
+  height: 48px;
+  margin: -5px 10px -10px 0px;
+}
+.navbar-brand p {
+  /* height: 30px; */
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Dancing Script', cursive;
+  font-size: 26px;
+  width: inherit;
+  font-weight: normal;
+  /* font-stretch: 200% 200%; */
+  /* font-size-adjust: auto; */
+}
+
+#my_name {
+  /* width: fit-content; */
 }
 
 

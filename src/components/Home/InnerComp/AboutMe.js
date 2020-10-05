@@ -9,17 +9,12 @@ class AboutMe extends Component {
 
         <div className='title_and_line'>
 
-          <div className='line1'>
-            <hr />
-          </div>
 
           <div className='compTitle'>
             <h1>ABOUT ME</h1>
           </div>
 
-          <div className='line2'>
-            <hr />
-          </div>
+
         </div>
 
           <div className='belowHeading'>

@@ -117,17 +117,11 @@ class MyProjects extends Component {
 
         <div className='title_and_line'>
 
-          <div className='line1'>
-            <hr />
-          </div>
 
           <div className='compTitle'>
             <h1>MY PROJECTS</h1>
           </div>
 
-          <div className='line2'>
-            <hr />
-          </div>
 
 
         </div>

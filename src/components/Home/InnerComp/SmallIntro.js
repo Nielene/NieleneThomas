@@ -7,7 +7,7 @@ class SmallIntro extends Component {
         <div className='smallIntro'>
 
           <div className='name'>
-            <h1>Nielene Thomas.</h1>
+            <h1>Nielene Thomas</h1>
           </div>
 
           <div className='career'>
