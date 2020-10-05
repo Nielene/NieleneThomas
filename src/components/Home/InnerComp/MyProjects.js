@@ -119,7 +119,7 @@ class MyProjects extends Component {
 
 
           <div className='compTitle'>
-            <h1>MY PROJECTS</h1>
+            <h1>PROJECTS</h1>
           </div>
 
 

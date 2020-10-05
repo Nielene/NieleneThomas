@@ -90,7 +90,7 @@ class MyOtherProjects extends Component {
 
 
           <div className='compTitle'>
-            <h1>My Other Projects</h1>
+            <h1>Other Projects</h1>
           </div>
 
         </div>

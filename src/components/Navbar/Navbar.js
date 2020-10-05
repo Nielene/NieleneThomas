@@ -65,7 +65,7 @@ class Navbar extends Component {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#myOtherProjects_AnchorTag">My Other Projects</a>
+                <a className="nav-link" href="#myOtherProjects_AnchorTag">Other Projects</a>
               </li>
 
               <li className="nav-item">
