@@ -20,6 +20,7 @@
   /* max-width: 100px; */
   height: 48px;
   margin: -5px 10px -10px 0px;
+
 }
 .navbar-brand p {
   /* height: 30px; */
@@ -28,13 +29,25 @@
   font-size: 26px;
   width: inherit;
   font-weight: normal;
-  /* font-stretch: 200% 200%; */
-  /* font-size-adjust: auto; */
+  color: rgba(0,0,0,.5);
+}
+.navbar-brand p:hover {
+  color: #212529;
 }
 
-#my_name {
-  /* width: fit-content; */
+
+a.nav-link {
+  /* padding: .5rem 1rem; */
+  padding: 0;
 }
+a.nav-link:hover {
+  color: #212529;
+  padding: 0 8px;
+  margin-top: 0;
+  font-size: 15px;
+}
+
+
 
 
 

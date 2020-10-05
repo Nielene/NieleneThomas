@@ -14,7 +14,7 @@ class Home extends Component {
   render() {
     return (
       <div className='Home_and_ArrowUp_Div'>
-        <div className='homeDiv'>
+        <div className='homeDiv'  data-spy="scroll" data-target="#navbar-example2" data-offset="0">
 
           <div id='smallIntro_AnchorTag' className='homeComponent'>
           </div>
