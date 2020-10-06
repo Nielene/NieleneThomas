@@ -8,7 +8,7 @@ class SmallIntro extends Component {
 
           <div className='smallIntro_text'>
             <div className='name'>
-              <h1>Nielene Thomas</h1>
+              <h1>Nielene E. Thomas</h1>
             </div>
 
             <div className='career'>

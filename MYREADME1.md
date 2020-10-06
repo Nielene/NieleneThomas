@@ -338,6 +338,17 @@ Hosting URL: https://nieleneethomas.web.app***
 
 
 
+https://jec.fyi/blog/setting-up-github-actions-and-firebase-hosting
+#--npx firebase login
+#--npx firebase init hosting
+**--What do you want to use as your public directory? build
+**--Configure as a single-page app (rewrite all urls to /index.html)? Yes
+**--Set up automatic builds and deploys with GitHub? No
+**--File build/index.html already exists. Overwrite? Yes
+**--Wrote build/index.html
+
+
+
 
 
 
