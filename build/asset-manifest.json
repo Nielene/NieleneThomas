@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e02c5d84.chunk.css",
+    "main.js": "/static/js/main.e69113b9.chunk.js",
+    "main.js.map": "/static/js/main.e69113b9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c34c0ec6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c34c0ec6.js.map",
+    "static/js/2.8d225347.chunk.js": "/static/js/2.8d225347.chunk.js",
+    "static/js/2.8d225347.chunk.js.map": "/static/js/2.8d225347.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a757327a3bf2a4e488194d724b7e3a50.js": "/precache-manifest.a757327a3bf2a4e488194d724b7e3a50.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e02c5d84.chunk.css.map": "/static/css/main.e02c5d84.chunk.css.map",
+    "static/js/2.8d225347.chunk.js.LICENSE.txt": "/static/js/2.8d225347.chunk.js.LICENSE.txt",
+    "static/media/Dashing_Screenshot.png": "/static/media/Dashing_Screenshot.b24dfdf3.png",
+    "static/media/ezgif.com-crop.gif": "/static/media/ezgif.com-crop.4d53e2c8.gif",
+    "static/media/github_icon.png": "/static/media/github_icon.89c2c067.png",
+    "static/media/jantine-doornbos-xt9tb6oa42o-unsplash.jpg": "/static/media/jantine-doornbos-xt9tb6oa42o-unsplash.e7c65836.jpg",
+    "static/media/myGithubPicture.jpeg": "/static/media/myGithubPicture.8386971d.jpeg",
+    "static/media/re_reddit_screenshot.png": "/static/media/re_reddit_screenshot.539fe0e6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c34c0ec6.js",
+    "static/js/2.8d225347.chunk.js",
+    "static/css/main.e02c5d84.chunk.css",
+    "static/js/main.e69113b9.chunk.js"
+  ]
+}

@@ -298,6 +298,7 @@ npm install firebase-tools -g
 npm install -g firebase-tools
 ## -- go to project folder. cancel out of any running server ( control + c) -- ##
 firebase login
+***Already logged in as thomasnielene@gmail.com***
 # opens a browser window. choose an acct. reutrn to command line
 # thomasnielene@gmail.com
 # ?
@@ -308,23 +309,27 @@ firebase init
 # select project you created in firebase console of projects.
 ***--> What do you want to use as your public directory?***  (??)
   -- build
-***--> configure as a single page?***
+***--> Configure as a single-page app (rewrite all urls to /index.html)?***
   -- yes
-***--> file build/index.html already exists. overwrite?***
+***-->Set up automatic builds and deploys with GitHub?***
+ -- ?No?f
+***--> File build/index.html already exists. Overwrite?***
   -- no  *** (if you like your index.html) ***
   -- yes *** (if used npx create-react-app and have no index.html) ***
+  ***-- Wrote build/index.html--***
+  ***Firebase initialization complete!***
 # initialization Complete
 # settings tab --> project settings --> general --> copy Project ID
 ***-- For which GitHub repository would you like to set up a GitHub workflow? --***
 firebase use <project ID>
 ***-- eg. firebase use fir-project-951e5 --***
 ***-- eg. firebase use nieleneethomas --***
+***Now using project nieleneethomas***
 # now knows where to deploy all these files to #
 firebase deploy
-
-
+***Deploy complete!
 Project Console: https://console.firebase.google.com/project/nieleneethomas/overview
-Hosting URL: https://nieleneethomas.web.app
+Hosting URL: https://nieleneethomas.web.app***
 
 
 581  npm run build
