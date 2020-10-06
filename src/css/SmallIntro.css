@@ -4,10 +4,10 @@
   width: 100vw;
   height: 100vh;
   padding: 20vh 0 5px 20px;
-  margin-top: -15vh;
-  border: 1pt solid #84A98C;
-  box-shadow: 5px 10px 18px #888888;
-  border-radius: 5px;
+  /* margin-top: -15vh; */
+  /* border: 1pt solid #84A98C; */
+  /* box-shadow: 5px 10px 18px #888888; */
+  /* border-radius: 5px; */
 
   /* background-color: rgba(255, 255, 255, 0.75); */
   /* font-size-adjust: auto; */
@@ -22,16 +22,23 @@
   color: #52796F;
 } */
 
+.smallIntro_text {
+  margin-top: 0vh;
+  background-color: rgba(255, 255, 255, 0.75);
+
+  /* background-color: #ffffff; */
+
+}
 
 .name h1 {
   /* font-size: max(8vw, 60px); */
-  font-size: 5vw;
+  font-size: 9vh;
   color: #52796F;
   margin-bottom: 0px;
 }
 
 .career h1 {
-  font-size: 4vw;
+  font-size: 6vh;
   color: #84A98C;
   margin-top: 0px;
 }
@@ -39,8 +46,9 @@
 .shortTalk p {
   /* width: 600px; */
   width: inherit;
-  margin: 20px 0 15px 0;
+  margin: 5vh 0 15px 0;
   color: #52796F;
   font-stretch: semi-expanded;
-  font-size: 2vw;
+  font-size: 4vh;
+  min-width: 12px;
 }
