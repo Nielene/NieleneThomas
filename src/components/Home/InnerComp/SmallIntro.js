@@ -16,7 +16,10 @@ class SmallIntro extends Component {
             </div>
 
             <div className='shortTalk'>
-              <p>I love good work and good people. </p>
+              <p>
+                <span className='shortTalk_1'>I love good work and good </span>
+                <span className='shortTalk_2'>people.</span>
+              </p>
             </div>
           </div>
 

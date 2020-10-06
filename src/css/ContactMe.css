@@ -15,14 +15,11 @@
   box-shadow: 5px 10px 18px #888888;
   border-radius: 50%;
   background-color: #FFFFFF;
-
   font-family: cursive;
   font-size: 22px;
   font-stretch: extra-expanded;
   word-spacing: 5px;
   text-align: center;
-
-
 }
 .quote p {
   color: #212529;
@@ -32,7 +29,6 @@ span.contactMe {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
   background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 25%, #84A98C 50%, #bed1c2 70%, #84A98C 100%);
   padding-left: -50px;
   width: 75%;
@@ -60,7 +56,6 @@ span.contactMe {
   width: 40px;
   height: 40px;
 }
-
 
 .line1 {
 }

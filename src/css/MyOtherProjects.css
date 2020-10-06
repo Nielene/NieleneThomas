@@ -10,7 +10,6 @@
 
 .mappedJsonProjects {
   margin: 0 0 0 0;
-  /* margin-bottom: 50px; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -32,13 +31,6 @@
 
 /* 1. Projects always in view  - 1 remains untouched.*/
 .displayNow {
-  /* border: 1pt solid #84A98C; */
-  /* box-shadow: 5px 10px 18px #888888; */
-  /* border-radius: 5px; */
-  /* background-color: #FFFFFF; */
-  /* margin: 10px 10px 40px 10px; */
-  /* width: 400px; */
-
   width: 40%;
   min-width: 250px;
   margin: 0 5% 50px 5%;
@@ -52,8 +44,6 @@
   box-shadow: 5px 10px 18px #888888;
   border-radius: 5px;
   background-color: #FFFFFF;
-
-
 }
 /* 2. show Hidden Projects  -  3 and 2 toggle*/
 .displayAfter {
@@ -66,14 +56,6 @@
 }
 /* 3. reshow Hidden Projects  -  3 and 2 toggle*/
 .reDisplayNow {
-  /* border: 1pt solid #84A98C;
-  box-shadow: 5px 10px 18px #888888;
-  border-radius: 5px;
-
-  background-color: #FFFFFF;
-  margin: 10px 10px 40px 10px;
-  width: 400px; */
-
   width: 40%;
   min-width: 250px;
   margin: 0 5% 50px 5%;
@@ -87,13 +69,10 @@
   box-shadow: 5px 10px 18px #888888;
   border-radius: 5px;
   background-color: #FFFFFF;
-
-
 }
 
 div.inputButtonDiv {
   display: flex;
-  /* justify-content: center; */
   justify-content: flex-end;
   margin: -10px 0 20px 0;
 }
@@ -105,7 +84,6 @@ input.inputButton {
   background-color: #354F52;
   color: #FFFFFF;
   font-size: 16px;
-  /* padding: 10px; */
   padding: 5px 10px 5px 10px;
   width: fit-content;
 
@@ -119,7 +97,6 @@ input.inputButtonDiv:hover,
  a input.inputButton:hover,
  a:link {
  color: #FFF;
- /* background: none; */
  border-color: #84A98C;
  text-decoration: none;
 
@@ -132,9 +109,9 @@ input.inputButtonDiv:hover,
   background: linear-gradient(-45deg, #84A98C 0%, #bed1c2 35%, #84A98C 100%);
   padding-left: -50px;
   padding-right: 5px;
+  align-items: center;
+  width: 100%;
 
-    align-items: center;
-    width: 100%;
 }
 
 .otherPro_title {
@@ -156,20 +133,16 @@ input.inputButtonDiv:hover,
 .linkIconsInnerDiv {
   width: 33px;
   border-radius: 50%;
-  /* margin: 8px; */
   display: flex;
   justify-content: center;
   margin: 0 0 0 5px;
 }
 .linkIconsInnerDiv img {
-  /* width: 40px; */
   height: 30px;
-
   width: 30px;
-    background: linear-gradient(-45deg, #52796F 0%, #bed1c2 90%, #52796F 100%);
-    /* margin-left: 5px; */
-    border-radius: 50%;
-    padding: 2px;
+  background: linear-gradient(-45deg, #52796F 0%, #bed1c2 90%, #52796F 100%);
+  border-radius: 50%;
+  padding: 2px;
 }
 
 .otherPro_main_body {
@@ -181,16 +154,13 @@ input.inputButtonDiv:hover,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* padding-left: 20px; */
 
   background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
 }
 
 .otherPro_description {
-  /* padding-bottom: 10px;
-  color: white; */
 }
 
 .languagesArray {

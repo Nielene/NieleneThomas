@@ -299,12 +299,14 @@ npm install -g firebase-tools
 ## -- go to project folder. cancel out of any running server ( control + c) -- ##
 firebase login
 # opens a browser window. choose an acct. reutrn to command line
+# thomasnielene@gmail.com
+# ?
 npm run build
 # build folder of static files with webpack. now can initialize firebase inside folder #
 firebase init
 # choose Hosting. spacebar. enter.
 # select project you created in firebase console of projects.
-***--> What do you want to use as your public directory?***
+***--> What do you want to use as your public directory?***  (??)
   -- build
 ***--> configure as a single page?***
   -- yes
@@ -313,6 +315,7 @@ firebase init
   -- yes *** (if used npx create-react-app and have no index.html) ***
 # initialization Complete
 # settings tab --> project settings --> general --> copy Project ID
+***-- For which GitHub repository would you like to set up a GitHub workflow? --***
 firebase use <project ID>
 ***-- eg. firebase use fir-project-951e5 --***
 ***-- eg. firebase use nieleneethomas --***
