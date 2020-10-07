@@ -73,11 +73,9 @@ class MyOtherProjects extends Component {
             <div className='linkIconsInnerDiv'>
               <a href={project.github} target='_blank' rel='noopener noreferrer'><img src={github_icon} alt=''/></a>
             </div>
-            {
-              // <div className='linkIconsInnerDiv'>
-              //   <a href={project.website} target='_blank' rel='noopener noreferrer'><img src={external_link_icon} alt=''/></a>
-              // </div>
-            }
+              <div className='linkIconsInnerDiv'>
+                <a href={project.website} target='_blank' rel='noopener noreferrer'><img src={external_link_icon} alt=''/></a>
+              </div>
           </div>
 
         </div>

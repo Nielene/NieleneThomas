@@ -52,7 +52,7 @@ class MyProjects extends Component {
               onMouseOut={this.handleOnMouseOut}>
 
               {this.state.displayGif
-                ? <img src={screenshots[project.id]} alt='gif of project'></img>
+                ? <img src={gifs[project.id]} alt='gif of project'></img>
                 : <img src={screenshots[project.id]} alt='screenshot of project'></img> }
 
             </div>
