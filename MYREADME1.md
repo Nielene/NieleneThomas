@@ -452,4 +452,19 @@ Need help? Check out the Hosting docs
 
 
 
+----------
+
+https://medium.com/swlh/how-to-deploy-a-react-app-with-firebase-hosting-98063c5bf425
+
+818  npm install firebase-tools -g
+ 819  firebase login
+ 820  npm run build
+ 821  firebase init
+ 822  firebase deploy
+
+the tutorial suggests not to overwrite the index.html
+
+
+
+
 //

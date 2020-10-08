@@ -41,14 +41,28 @@
   align-items: center;
 }
 
+
 .belowHeading p {
   padding: 5px;
   word-spacing: 2px;
 }
 
 .belowHeading p a {
+  /* color: #212529; */
+  color: rgba(0,0,0,0.9);
+  font-style: italic;
+  font-weight: bold;
   text-decoration: none;
 }
+
+.belowHeading p a:hover {
+  color: rgba(0,0,0,0.9);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+
+
 
 .rightSideImgDiv {
   width: 30%;
