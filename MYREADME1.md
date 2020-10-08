@@ -456,13 +456,23 @@ Need help? Check out the Hosting docs
 
 https://medium.com/swlh/how-to-deploy-a-react-app-with-firebase-hosting-98063c5bf425
 
-818  npm install firebase-tools -g
- 819  firebase login
- 820  npm run build
- 821  firebase init
- 822  firebase deploy
+  817  npm cache verify
+  818  npm install firebase-tools -g
+  819  firebase login
+  820  npm run build
+  821  firebase init
+          ? Which Firebase CLI features do you want to set up for this folder? Press Space to select features, then Enter to confirm your choices. (Press <space> to select, <a> to toggle all, <i> to invert selection)
+          --> ***Hosting: Configure and deploy Firebase Hosting sites***
+          ? What do you want to use as your public directory? ***build***
+          ? Configure as a single-page app (rewrite all urls to /index.html)? ***Yes***
+          ? Set up automatic builds and deploys with GitHub? ***No***
+          ? File build/index.html already exists. Overwrite? ***No***
+          i  Skipping write of build/index.html
+  822  firebase deploy
 
 the tutorial suggests not to overwrite the index.html
+
+
 
 
 
