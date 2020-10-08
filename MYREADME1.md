@@ -354,4 +354,102 @@ https://www.youtube.com/watch?v=9kRgVxULbag
 
 
 
+Github:
+
+#…or create a new repository on the command line
+echo "# nielene" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Nielene/nielene.git
+git push -u origin main
+
+#…or push an existing repository from the command line
+git remote add origin https://github.com/Nielene/nielene.git
+git branch -M main
+git push -u origin main
+
+#…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+
+----------------
+https://console.firebase.google.com/u/4/project/nieleneevthomas/overview
+
+
+#1. Register app
+App nickname
+    nieleneethomas
+
+Also set up Firebase Hosting for this app. Learn more
+Hosting can also be set up later. It's free to get started anytime.
+    nieleneevthomas
+
+#2. Add Firebase SDK
+Copy and paste these scripts into the bottom of your <body> tag, but before you use any Firebase services:
+
+```html
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.22.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.22.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+```
+
+
+
+#3. Install Firebase CLI
+
+To host your site with Firebase Hosting, you need the Firebase CLI (a command line tool).
+
+Run the following npm command to install the CLI or update to the latest CLI version.
+
+
+***- npm install -g firebase-tools -***
+
+Doesn't work? Take a look at the Firebase CLI reference or change your npm permissions
+
+#4. Deploy to Firebase Hosting
+You can deploy now or later. To deploy now, open a terminal window, then navigate to or create a root directory for your web app.
+Sign in to Google
+
+***- firebase login -***
+
+Initiate your project
+Run this command from your app’s root directory:
+
+
+***- firebase init -***
+
+Specify your site in firebase.json
+Add your site name to the firebase.json configuration file. After you get set up, see the best practices for multi-site deployment.
+
+***-
+{
+  "hosting": {
+    "site": "nieleneevthomas",
+    "public": "public",
+    ...
+  }
+}
+-***
+
+When you’re ready, deploy your web app
+Put your static files (e.g., HTML, CSS, JS) in your app’s deploy directory (the default is “public”). Then, run this command from your app’s root directory:
+
+
+***- firebase deploy --only hosting:nieleneevthomas -***
+
+After deploying, view your app at nieleneevthomas.web.app
+Need help? Check out the Hosting docs
+
+
+
 //
